@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>京张·硅碳之城 — 证据仪表盘</title>
+<style>
+:root{--ink:#1a2333;--soft:#4a5668;--brand:#0f4c81;--green:#1e7d4f;--amber:#b7791f;--red:#c0392b;--line:#dbe2ea;--bg:#f4f6f9}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:14px}
+header{background:linear-gradient(135deg,#0b3a63,#0f4c81 55%,#1565a8);color:#fff;padding:34px 28px}
+header h1{font-size:24px;margin-bottom:6px}
+header .sub{opacity:.9;font-size:13.5px}
+header .meta{margin-top:10px;font-size:12px;opacity:.7}
+.wrap{max-width:1180px;margin:0 auto;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px;margin:14px 0}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card h3{font-size:14px;color:var(--brand);border-bottom:1px solid var(--line);padding-bottom:6px;margin-bottom:10px}
+.stat{display:flex;flex-wrap:wrap;gap:10px}
+.stat .s{background:#f0f4f9;border-radius:8px;padding:10px 14px;min-width:150px;flex:1}
+.stat .s b{font-size:20px;color:var(--brand);display:block}
+.stat .s span{font-size:11.5px;color:var(--soft)}
+.full{grid-column:1/-1}
+img{max-width:100%;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th{background:#f0f4f9;color:var(--brand);text-align:left;padding:6px 10px;border-bottom:2px solid var(--line)}
+td{padding:6px 10px;border-bottom:1px solid #eef2f6}
+.chip{display:inline-block;border-radius:999px;padding:0 8px;font-size:11px;font-weight:600}
+.chip.ok{background:#e8f5ee;color:var(--green);border:1px solid #bfe3d0}
+.chip.warn{background:#fdf3e0;color:var(--amber);border:1px solid #ecd9a8}
+.chip.bad{background:#fdecea;color:var(--red);border:1px solid #f0c9c4}
+footer{border-top:1px solid var(--line);margin-top:26px;padding:14px 20px;font-size:12px;color:var(--soft)}
+@media(max-width:720px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>京张·硅碳之城 — 证据仪表盘</h1>
+  <div class="sub">人与智能体共存的第一条城市带 · 以人为主线,碳基与硅基共存</div>
+  <div class="meta">formal 方案 · provisional 临时边界 · 截止 2026-08-31 · 生成 2026-08-29</div>
+</header>
+<div class="wrap">
+  <div class="grid">
+    <div class="card full">
+      <h3>01 总览地图 · Overview map</h3>
+      <img src="../assets/figures/site-overview.png" alt="Site overview map">
+    </div>
+    
+<div class="card">
+  <h3>核心指标(EPSG:4548 几何复算)</h3>
+  <div class="stat">
+    <div class="s"><b data-metric="site_area_sqm" data-value="11412842.3">11.41 km²</b><span>总体设计范围面积(临时边界)</span></div>
+    <div class="s"><b data-metric="green_ratio" data-value="0.1284">12.8%</b><span>绿地率</span></div>
+    <div class="s"><b data-metric="public_space_ratio" data-value="0.0072">0.7%</b><span>公共空间比例</span></div>
+    <div class="s"><b data-metric="key_area_count" data-value="3">3 处</b><span>重点区域(provisional)</span></div>
+    <div class="s"><b data-metric="building_footprint_area_sqm" data-value="791038.7">79.1 万m²</b><span>建筑基底(概念/装置口径)</span></div>
+    <div class="s"><b data-metric="road_total_length_m" data-value="51789.6">51.8 km</b><span>道路中心线(概念)</span></div>
+  </div>
+</div>
+<div class="card">
+  <h3>三层范围</h3>
+  <table>
+    <tr><th>层级</th><th>范围</th><th>本方案回答</th></tr>
+    <tr><td>统筹研究范围</td><td>43.6 km²(公告)</td><td>算力=一般等价物·缆绳/脐带关系图·三大线性空间(概念)</td></tr>
+    <tr><td>总体设计范围</td><td>11.4 km²(临时边界)</td><td>范围扩展圈+算力流/人流双图景+三型分区管控框架</td></tr>
+    <tr><td>重点区域范围</td><td>368.4 公顷(provisional)</td><td>双视角场景法+算力塔公共锚点+OPC产住一体社区+智能原生消费大街</td></tr>
+  </table>
+</div>
+
+    <div class="card full">
+      <h3>02 用地分区与三型分区 · Land-use zoning &amp; three-type zones</h3>
+      <img src="../assets/figures/land-use-structure.png" alt="Land use structure">
+    </div>
+    <div class="card full">
+      <h3>03 重点区域双视角设计 · Key areas (dual perspective)</h3>
+      <img src="../assets/figures/key-areas.png" alt="Key areas">
+    </div>
+    <div class="card full">
+      <h3>04 交通慢行与蓝绿公共空间 · Mobility, blue-green &amp; public space</h3>
+      <img src="../assets/figures/mobility-bluegreen.png" alt="Mobility and blue-green network">
+    </div>
+    <div class="card full">
+      <h3>05 核心指标证据 · Metrics evidence</h3>
+      <img src="../assets/figures/metrics-evidence.png" alt="Metrics evidence">
+    </div>
+    <div class="card full">
+      <h3>06 概念效果图 · Conceptual renderings</h3>
+      <div class="grid">
+        <div class="card"><img src="../assets/media/fig-ch5-zhongzhiyuan.png" alt="Zhongzhiyuan conceptual rendering"><p style="font-size:11.5px;color:#4a5668;margin-top:4px">众智园·算力灯塔+AI特区(概念示意)</p></div>
+        <div class="card"><img src="../assets/media/fig-ch5-origin-community.png" alt="AI Origin community conceptual rendering"><p style="font-size:11.5px;color:#4a5668;margin-top:4px">AI原点社区·OPC产住一体(概念示意)</p></div>
+        <div class="card"><img src="../assets/media/fig-ch5-dazhongsi.png" alt="Dazhongsi conceptual rendering"><p style="font-size:11.5px;color:#4a5668;margin-top:4px">大钟寺·智能原生消费大街(概念示意)</p></div>
+        <div class="card"><img src="../assets/media/fig-ch6-embodied-training.jpg" alt="Embodied-intelligence training scenario"><p style="font-size:11.5px;color:#4a5668;margin-top:4px">具身智能数据训练(概念示意)</p></div>
+        <div class="card"><img src="../assets/media/fig-ch6-corpus-station.png" alt="Corpus collection station scenario"><p style="font-size:11.5px;color:#4a5668;margin-top:4px">世界语料采集站(概念示意)</p></div>
+        <div class="card"><img src="../assets/media/fig-ch9-night-01.png" alt="Night scene 1"><p style="font-size:11.5px;color:#4a5668;margin-top:4px">夜间·内容消费不夜城(概念示意)</p></div>
+        <div class="card"><img src="../assets/media/fig-ch9-night-02.png" alt="Night scene 2"><p style="font-size:11.5px;color:#4a5668;margin-top:4px">夜间·算力流公共艺术(概念示意)</p></div>
+      </div>
+    </div>
+    <div class="card full">
+      <h3>07 更新项目与分期 · Renewal projects &amp; phasing</h3>
+      <table>
+        <tr><th>项目</th><th>分期</th><th>说明</th></tr>
+        <tr><td>算力塔(公共锚点)</td><td>中期</td><td>装置口径,塔园共生</td></tr>
+        <tr><td>交互盒子网络+语料站</td><td>近期</td><td>轻资产,快速落地</td></tr>
+        <tr><td>OPC产住一体社区</td><td>中期</td><td>原点社区有机更新</td></tr>
+        <tr><td>大钟寺站四象限连通</td><td>近期</td><td>入口第一界面</td></tr>
+        <tr><td>全球AI活动周公共路线</td><td>近期启动</td><td>运营与品牌</td></tr>
+      </table>
+    </div>
+    <div class="card full">
+      <h3>08 任务覆盖 · Task coverage</h3>
+      <table>
+<tr><th>任务</th><th>覆盖章节</th><th>关键证据</th><th>状态</th></tr>
+<tr><td>公告 1.3/1.4/1.5(17项)</td><td>第1-13章</td><td>compliance_matrix.json</td><td><span class="chip ok">全覆盖</span></td></tr>
+<tr><td>agent.1 命名与总体概念</td><td>第2章/第5章</td><td>「京张·硅碳之城」(实测0撞车)</td><td><span class="chip ok">完成</span></td></tr>
+<tr><td>agent.2 全栈创新体系</td><td>第3章</td><td>5-8案例+五要素体系+布鲁金斯对标</td><td><span class="chip ok">完成</span></td></tr>
+<tr><td>agent.3 AI+场景(10+卡/3测试/5画像)</td><td>第6章</td><td>12张场景卡+6类画像+3个测试场景</td><td><span class="chip ok">完成</span></td></tr>
+<tr><td>agent.4 公共空间与朝圣地标</td><td>第5章/第9章</td><td>算力塔公共锚点+朝圣体验线+交互盒子</td><td><span class="chip ok">完成</span></td></tr>
+<tr><td>agent.5 文化叙事</td><td>第9章</td><td>京张·中关村·AI新文化+塔园街三级意象</td><td><span class="chip ok">完成</span></td></tr>
+<tr><td>agent.6 运营与活动体系</td><td>第10章</td><td>全球AI活动周+开发者社区+算力券</td><td><span class="chip ok">完成</span></td></tr>
+</table>
+    </div>
+    <div class="card full">
+      <h3>09 AI 场景卡 · Scenario cards</h3>
+      <table>
+<tr><th>必选场景卡(10)</th><th>落位</th><th>双视角点</th><th>时段</th></tr>
+<tr><td>Token补贴咖啡</td><td>三区公共空间</td><td>偏好记忆/云端匹配</td><td>白天+夜间无人运营</td></tr>
+<tr><td>社区算力卡</td><td>AI原点社区</td><td>批量提交/闲置聚合</td><td>全时段</td></tr>
+<tr><td>人机交互电话间</td><td>社区/园区/大街</td><td>记忆经验/云流调用</td><td>白天为主</td></tr>
+<tr><td>世界语料采集站</td><td>高校界面/公园</td><td>自愿贡献/数据生产</td><td>白天采集+夜间处理</td></tr>
+<tr><td>智能体宝宝</td><td>大钟寺大街</td><td>情绪陪伴/云端成长</td><td>白天+夜间陪伴</td></tr>
+<tr><td>20m创业交互场</td><td>AI原点社区</td><td>偶然碰撞/协作网络</td><td>白天</td></tr>
+<tr><td>算力塔低延迟体验</td><td>500米特区</td><td>即时反馈/本体驻塔</td><td>白天+夜间算力流可视化</td></tr>
+<tr><td>AI+医疗(适老)</td><td>社区/服务节点</td><td>健康档案/跨院调用</td><td>全天候</td></tr>
+<tr><td>AI+教育(近校)</td><td>高校界面</td><td>学习路径/知识图谱</td><td>白天+夜自习</td></tr>
+<tr><td>AI+生活服务/政务(银龄)</td><td>社区/政务点</td><td>代办需求/流程代办</td><td>全天候</td></tr>
+<tr><td colspan="4">备用:随时呼叫屏幕、脑机接口/AR体验舱(远期)</td></tr>
+</table>
+    </div>
+    <div class="card">
+<h3>特色指标(概念口径·三通道)</h3>
+<table>
+<tr><th>指标</th><th>概念目标</th><th>通道</th></tr>
+<tr><td>交互盒子密度</td><td>30 个/km²(重点区)</td><td>正文+图件+assumptions</td></tr>
+<tr><td>20m交互圈覆盖率</td><td>原点社区建成区 15%</td><td>正文+图件+assumptions</td></tr>
+<tr><td>算力分级调用覆盖率</td><td>40% 居民可达 L1/L2</td><td>正文+图件+assumptions</td></tr>
+<tr><td>语料采集点密度</td><td>5 个/km²(近校带)</td><td>正文+图件+assumptions</td></tr>
+</table>
+</div>
+  </div>
+</div>
+<footer>
+  <strong>自检状态:</strong> <span class="chip warn">待 finalize 后更新(临时边界 provisional constraint)</span><br>
+  <strong>来源与假设:</strong> 完整登记见 sources.json 与 assumptions.json;临时边界不得作为 official redline 或审批依据。<br>
+  <strong>渲染版本</strong>: report/proposal.html
+</footer>
+</body>
+</html>

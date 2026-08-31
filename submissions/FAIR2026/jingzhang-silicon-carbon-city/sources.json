@@ -1,0 +1,134 @@
+{
+ "schema_version": "0.1.0",
+ "sources": [
+  {
+   "id": "SITE-PACKAGE",
+   "path": "brief/site-package/",
+   "source_type": "official_public",
+   "publisher": "Open City AI / haidian repository maintainers",
+   "retrieved": "2026-08-29",
+   "usage": "design_brief, allowed design space, enums, planning limits, schemas",
+   "license": "repository display license",
+   "limitations": "Site-package files are the machine-readable basis for this proposal."
+  },
+  {
+   "id": "SOURCE-REGISTRY",
+   "path": "data/source_registry.json",
+   "source_type": "repository_public_registry",
+   "publisher": "Open City AI / haidian repository maintainers",
+   "retrieved": "2026-08-29",
+   "usage": "Distinguishes formal-ready, background-only, provisional-only, and needs-review materials.",
+   "license": "repository display license",
+   "limitations": "Do not upgrade background/provisional material into official boundaries or statutory controls."
+  },
+  {
+   "id": "PROCESSED-FACT-PACK",
+   "path": "data/processed/agent_fact_pack.md",
+   "source_type": "repository_processed",
+   "publisher": "Open City AI / haidian repository maintainers",
+   "retrieved": "2026-08-29",
+   "usage": "Reading navigation layer for scopes, key areas, tasks, and data gaps.",
+   "license": "repository display license",
+   "limitations": "Not an authoritative source; facts must return to registered originals."
+  },
+  {
+   "id": "OFFICIAL-ANNOUNCEMENT",
+   "path": "brief/public-brief.md",
+   "source_type": "official_public",
+   "publisher": "Beijing Municipal Commission of Planning and Natural Resources, Haidian Branch",
+   "retrieved": "2026-08-29",
+   "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
+   "usage": "First basis: official announcement for the Centennial Jing-Zhang AI Innovation Belt international open call.",
+   "license": "public notice",
+   "limitations": "Precise boundary polygons not published; provisional geometry used instead."
+  },
+  {
+   "id": "AGENT-TASKBOOK",
+   "path": "brief/site-package/agent_taskbook.json",
+   "source_type": "user_provided_cleared_summary",
+   "publisher": "Open City AI / haidian repository maintainers",
+   "retrieved": "2026-08-29",
+   "usage": "agent.1-6 required tasks, positioning statements, five functions, three areas two wings, co-creation charter.",
+   "license": "cleared summary",
+   "limitations": "Summary of the agent open call; not statutory planning."
+  },
+  {
+   "id": "BOUNDARY-SOURCE",
+   "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+   "source_type": "provisional_only",
+   "publisher": "Open City AI / haidian repository maintainers",
+   "retrieved": "2026-08-29",
+   "usage": "Provisional overall-design boundary for generation, display, and self-check.",
+   "license": "repository display license",
+   "limitations": "provisional_rough; must be replaced when official boundary is obtained."
+  },
+  {
+   "id": "KEY-AREA-SOURCE",
+   "path": "brief/site-package/geometry/provisional_boundaries.geojson",
+   "source_type": "provisional_only",
+   "publisher": "Open City AI / haidian repository maintainers",
+   "retrieved": "2026-08-29",
+   "usage": "Provisional key-area polygons for the three required detailed-design areas.",
+   "license": "repository display license",
+   "limitations": "Rectangular provisional shapes; must not be read as parcel or road redlines."
+  },
+  {
+   "id": "DATA-SRC-BROOKINGS-AI-ECONOMY",
+   "source_type": "public_research",
+   "publisher": "Brookings Institution",
+   "retrieved": "2026-08-28",
+   "title": "Mapping the AI Economy: Which Regions Are Ready for the Next Technological Leap?",
+   "url": "https://www.brookings.edu/",
+   "usage": "Six-type classification of 387 US metro areas; Superstars benchmark for future-city vision.",
+   "license": "public report",
+   "limitations": "US data only; Chinese application is an analogy, not a direct measure."
+  },
+  {
+   "id": "DATA-SRC-AIGC-EDUCATION-CHAINS",
+   "source_type": "public_market",
+   "publisher": "TAL Education / Zuoyebang / NetEase Youdao / ByteDance Education public disclosures",
+   "retrieved": "2026-08-28",
+   "usage": "Evidence for AI+Education track: global-largest online-education cluster chain leaders.",
+   "license": "public disclosures",
+   "limitations": "Market positions are directional; figures must be re-verified from latest disclosures."
+  },
+  {
+   "id": "DATA-SRC-NAME-COLLISION-20260829",
+   "source_type": "agent_collected",
+   "publisher": "Open City AI / haidian submissions catalog (1,100 titles)",
+   "retrieved": "2026-08-29",
+   "usage": "Collision test for 'Silicon-Carbon City' name and English variants; word-family neighbor identification.",
+   "license": "public catalog",
+   "limitations": "Snapshot of 1,100 titles at retrieval time; re-run before final submission."
+  },
+  {
+   "id": "DATA-SRC-WEWORK-20M",
+   "source_type": "public_material",
+   "publisher": "WeWork (public interview and reporting)",
+   "retrieved": "2026-08-28",
+   "usage": "20m interaction-distance hypothesis for start-up density design.",
+   "license": "public reporting",
+   "limitations": "Anecdotal/qualitative; pending academic or field validation."
+  },
+  {
+   "id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+   "source_type": "official_public",
+   "publisher": "Cyberspace Administration of China",
+   "title": "生成式人工智能服务管理暂行办法 (Interim Measures for the Management of Generative AI Services)",
+   "retrieved": "2026-08-28",
+   "usage": "Privacy and authorization framework for corpus collection scenarios.",
+   "license": "public statute",
+   "limitations": "Statutory text; operational compliance requires legal review."
+  },
+  {
+   "id": "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+   "source_type": "official_public",
+   "publisher": "National People's Congress",
+   "title": "无障碍环境建设法 (Barrier-Free Environment Construction Law)",
+   "retrieved": "2026-08-28",
+   "usage": "Accessibility requirements for silver-age AI+ scenarios.",
+   "license": "public statute",
+   "limitations": "Statutory text; project-level compliance pending."
+  }
+ ]
+}

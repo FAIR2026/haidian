@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>京张·硅碳之城——人与智能体共存的第一条城市带 - proposal report</title>
+<style>
+:root {
+  --ink: #172033;
+  --muted: #667085;
+  --line: #d7dee8;
+  --paper: #ffffff;
+  --bg: #f4f7fa;
+  --accent: #245b8f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.75;
+}
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 42px 24px 72px;
+  background: var(--paper);
+  min-height: 100vh;
+  box-shadow: 0 0 0 1px rgba(23, 32, 51, 0.05);
+}
+.hero {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+}
+h1 { font-size: 34px; line-height: 1.22; margin: 0 0 10px; }
+h2 { font-size: 25px; margin: 34px 0 12px; border-top: 1px solid var(--line); padding-top: 24px; }
+h3 { font-size: 20px; margin: 26px 0 10px; }
+p, li { font-size: 16px; }
+blockquote {
+  margin: 18px 0;
+  padding: 12px 18px;
+  border-left: 4px solid var(--line);
+  color: var(--muted);
+  background: #f8fafc;
+}
+code {
+  background: #eef2f7;
+  color: #1d4f7a;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+:not(pre) > code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.summary { color: var(--muted); font-size: 17px; }
+.translation-link a { color: var(--accent); font-weight: 700; }
+.proposal-table { margin: 20px 0 26px; overflow-x: auto; }
+.proposal-table table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 520px;
+  font-size: 15px;
+}
+.proposal-table th, .proposal-table td {
+  border: 1px solid var(--line);
+  padding: 9px 12px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+}
+.proposal-table th { background: #eef2f7; color: var(--ink); font-weight: 700; }
+.proposal-table tbody tr:nth-child(even) { background: #fafcfe; }
+.proposal-table .align-center { text-align: center; }
+.proposal-table .align-right { text-align: right; }
+.proposal-figure {
+  margin: 22px 0 28px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+.proposal-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.proposal-figure figcaption {
+  padding: 10px 14px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+.evidence {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  margin: 0 0.12em;
+  border-bottom: 1px solid #8aa8c3;
+  color: #315f87;
+  font-size: 0.68em;
+  font-weight: 650;
+  line-height: 1.35;
+  vertical-align: super;
+}
+@media (max-width: 720px) {
+  main { padding: 26px 16px 52px; }
+  h1 { font-size: 26px; }
+  h2 { font-size: 21px; }
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<h1>京张·硅碳之城——人与智能体共存的第一条城市带</h1>
+<p class="summary">以人为主线,把人机交互、碳基与硅基共存作为底层逻辑;提出「京张·硅碳之城」命名体系、算力等价物框架、双视角场景法与OPC产住一体社区四大概念,形成覆盖13章的结构化formal方案包。</p>
+<p class="translation-link"><a href="proposal.en.html">Read in English</a></p>
+</section>
+<h1>京张·硅碳之城——人与智能体共存的第一条城市带</h1>
+<h2>设计依据与资料清单</h2>
+<p>本方案以北京市规划和自然资源委员会海淀分局发布的《百年京张AI创新带城市设计国际方案征集资格预审公告》为第一依据,并以 <code>brief/site-package/</code> 中登记的临时粗略边界、重点区域、枚举、指标和来源清单为机器可读依据 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OFFICIAL-ANNOUNCEMENT" title="来源：OFFICIAL-ANNOUNCEMENT">来源</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup>。方案将&quot;资料清单&quot;组织为证据地图:每条核心主张旁标注其来源拓扑(依据或推断),完整来源与用途边界保存在 <code>sources.json</code>,不在正文重复机器索引。</p>
+<p>资料登记的使用边界如下 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="SOURCE-REGISTRY" title="来源：SOURCE-REGISTRY">来源</sup>:formal 可用资料与背景资料按 <code>data/source_registry.json</code> 分级;agent 不得把 background_only 或 provisional_only 资料升级为 official boundary、法定控规、正式评分依据或政府实施承诺。本次新增登记三类自采证据,均注明发布者、URL、获取日期与用途:一是布鲁金斯学会《Mapping the AI Economy: Which Regions Are Ready for the Next Technological Leap?》用于旧金山对标 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-BROOKINGS-AI-ECONOMY" title="来源：DATA-SRC-BROOKINGS-AI-ECONOMY">来源</sup>;二是AIGC教育链主的公开市场信息(学而思、作业帮、网易有道、字节教育)用于产业赛道分析 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-AIGC-EDUCATION-CHAINS" title="来源：DATA-SRC-AIGC-EDUCATION-CHAINS">来源</sup>;三是2026-08-29对1100份已提交作品标题库的撞车实测,用于命名与差异化核对 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-NAME-COLLISION-20260829" title="来源：DATA-SRC-NAME-COLLISION-20260829">来源</sup>。</p>
+<p>官方 <code>SITE_BOUNDARY</code> 与三处 <code>KEY_AREA</code> 尚未取得,本包使用 <code>brief/site-package/geometry/provisional_boundaries.geojson</code> 生成的临时边界,<code>geometry/site_boundary.geojson</code> 与 <code>geometry/key_areas.geojson</code> 均标注为 <code>provisional_constraint</code>、<code>official_boundary=false</code> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/site_boundary.geojson#SITE-001" title="空间数据：geometry/site_boundary.geojson#SITE-001">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="指标：site_area_sqm">指标</sup>。该组织方数据缺口不阻断内容评分;官方多边形发布后,用地、建筑、道路、绿地、公共空间、分期与指标均需按附录复算路径重算。</p>
+<figure class="proposal-figure"><img src="../assets/figures/site-overview.png" alt="总体设计范围与证据链总览图"><figcaption>总体设计范围与证据链总览图</figcaption></figure>
+<h2>三层范围工作框架</h2>
+<p>方案把官方给定的三个层次转译为&quot;算力=一般等价物&quot;框架:算力是链接规划范围内外的一般等价物,核心问题是算力与人建立、重组、维系了哪些关系——这些关系是规划范围与现实世界、算力世界的&quot;缆绳&quot;或&quot;脐带&quot; <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_level_scope_framework" title="深度：three_level_scope_framework">深度</sup>。三定位与三层对应:算力综合效益决定规划范围在全球数字经济中的结构定位(统筹研究范围43.6平方公里);算力促发的产业经济交互决定与北京其他区域的联系网络定位(总体设计范围11.4平方公里);算力改变的生产、生活、休闲、交通场景决定功能定位(重点区域368.4公顷)。每一层各配一张&quot;关系图&quot;,分别回答:算力与人建立了哪些缆绳(人才、能源、市场)、重组了哪些、维系了哪些脐带(云、流、模型)。</p>
+<p>在宏观层,方案提出<strong>三大线性空间</strong>命题:长安街及延长线为政务主轴、北京中轴线为历史文化轴,京张带有望成为北京第三条城市主轴——科技轴,与生态轴(永定河)、历史文化轴(北京中轴线)共同构成北京未来城市发展的三大线性空间 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="overall_spatial_structure" title="深度：overall_spatial_structure">深度</sup>。该提法为概念建议,不暗示官方定位;「新轴」词族已有近似作品使用,正文统一采用&quot;三大线性空间&quot;表述并保持城市级叙事。</p>
+<p>三层空间证据以 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/site_boundary.geojson#SITE-001" title="空间数据：geometry/site_boundary.geojson#SITE-001">空间数据</sup> 与 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-001" title="空间数据：geometry/key_areas.geojson#PROV-KEY-001">空间数据</sup> 为准,面积指标见 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="指标：site_area_sqm">指标</sup> 与 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="key_area_count" title="指标：key_area_count">指标</sup>。</p>
+<figure class="proposal-figure"><img src="../assets/figures/land-use-structure.png" alt="三层范围与空间工作框架图"><figcaption>三层范围与空间工作框架图</figcaption></figure>
+<h2>统筹研究范围产业与未来城市研究</h2>
+<p><strong>产业研究:短期抢占风口,中期培育热带雨林。</strong> 短期聚焦三条确定性最强赛道:AIGC内容生成(海淀拥有全国最密集的AIGC企业集群)、AI+健康(AI制药、AI医疗影像、蛋白质预测,海淀生命科学园与清华协和天然联动)、AI+教育(全球最大在线教育产业集群,学而思、作业帮、网易有道、字节教育等公开链主) <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-AIGC-EDUCATION-CHAINS" title="来源：DATA-SRC-AIGC-EDUCATION-CHAINS">来源</sup>。中期培育两片热带雨林:OPC时代与新个体经济——伴随AI coding工具普及,海淀高校与大厂衍生的大规模独立开发者、超小型团队将井喷;新型端到端生产性服务——从算力券、开源工具链、法律合规到社群运营的全周期支撑体系 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="PROJECT-AGENT-OPEN-CALL-TASKBOOK" title="标准：PROJECT-AGENT-OPEN-CALL-TASKBOOK">标准</sup>。方案主张&quot;重点是生态营造而不是谋划具体产业方向&quot;——低密度的偶然碰撞比高密度的刻意对接更能激发创新,并据此提出<strong>算→数→模→用→服</strong>五要素产业功能体系:算(算力塔、绿电、分级调用)、数(语料、数据要素)、模(OPC开发者、开源)、用(应用与内容消费)、服(两翼生产性服务),空间上映射为北造算、中养模、南开市、两翼支撑 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="existing_conditions_diagnosis" title="深度：existing_conditions_diagnosis">深度</sup>。</p>
+<p><strong>未来城市研究:布鲁金斯Superstars对标。</strong> 依据布鲁金斯学会对美国387个典型都市区的6类分区,Superstars(旧金山、圣何塞/硅谷)在人才、创新、应用上达到全球顶级,其中旧金山是前沿模型实验室之都(OpenAI、Anthropic,后者2025年估值约610亿美元;Databricks、Sierra、Scale AI等),圣何塞/硅谷是全球算力与芯片中枢 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-BROOKINGS-AI-ECONOMY" title="来源：DATA-SRC-BROOKINGS-AI-ECONOMY">来源</sup>。北京和京张更接近前者。对照表显示:VC主导(2025年全球AI融资约2110亿美元、占全球风投一半,湾区占美国AI投资约50%)→对应算力券与孵化政策;Stanford/UC Berkeley及全球工程师流入→对应清华、北大、中科院近校转化;Scale AI(训练数据标注)→对应世界语料采集站;Sierra(智能体客服)→对应大钟寺智能体服务;Databricks(数据+AI平台)→对应数据要素流通。京张的独特性在于全球罕见的同线双角色——&quot;模型之都(海淀)+算力腹地(张北)&quot;,该能源地理仅作宏观逻辑图背景句,不展开叙事 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-BROOKINGS-AI-ECONOMY" title="来源：DATA-SRC-BROOKINGS-AI-ECONOMY">来源</sup>。愿景一句话:打造中国版的&quot;前沿模型实验室之都&quot;,并以算力塔、语料站、OPC社区把愿景建成可感知的城市。</p>
+<h2>总体设计范围城市更新与控规深度城市设计</h2>
+<p><strong>范围扩展原则</strong>:总体设计范围应从规划标定的范围边界扩展到骑行可达的社区、高校与TOD站点——电动化的智能辅助出行工具将成为提升效率的主流,范围的扩大才能出现合理的结构(仅有三个片区只能是碎片结构或强行绘制的结构) <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="overall_spatial_structure" title="深度：overall_spatial_structure">深度</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-001" title="空间数据：geometry/roads.geojson#ROAD-001">空间数据</sup>。扩展圈为研究建议圈,在图件中单独标注,官方11.4平方公里数据不变。</p>
+<p><strong>双图景表达</strong>:除竞赛要求的成果图纸外,单独构建算力流与人流两套图景——算力流图景表达算力从基础到应用的时空联系(分时动图、流量分配图、爆炸图),人流图景表达人在空间中的活动时空规律(三维时空轨迹图);不限于平面图纸,采用具备三维信息表达能力的图件 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="land_use_layout" title="深度：land_use_layout">深度</sup>。</p>
+<p><strong>三型分区管控框架</strong>:将&quot;控规深度&quot;转译为&quot;管控框架的深度&quot;——展示型节点(算力塔、交互体验场,高强度公共投入)、转化型街区(AI原点社区20m交互圈,有机更新低扰动)、服务型缝合带(公园两侧,界面整治+慢行缝合),每型给出高度、风貌、屋顶、体量的引导方向而非审定指标 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MOHURD-CONTROL-DETAILED-PLANNING" title="标准：MOHURD-CONTROL-DETAILED-PLANNING">标准</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="development_intensity_controls" title="深度：development_intensity_controls">深度</sup>。示范轴呼应环线提升(二环四环先启动为背景句),京张带作为环线提升与线性更新交汇的示范轴。</p>
+<h2>重点区域详细设计</h2>
+<p>三处重点区域按<strong>碳基人、硅基智能体双视角</strong>原则详细设计:碳基人在特定时空场景锁定下只有自带记忆和经验支撑行为;硅基智能体在同样场景中具备跨模态、跨实体的云和流调用能力 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_key_area_detailed_design" title="深度：three_key_area_detailed_design">深度</sup>。物理空间的微观只是对碳基人和硅基智能体载体的平等限定——二者只有在描述场景的那一霎那,在时间上取得平等。每张场景卡以&quot;双栏+定格句&quot;表达:左栏碳基人的行为与资源局限,右栏智能体的云流调用可能;并补&quot;那一刻&quot;定格句。方案还须有一个被物理看见的算力塔作为硅碳双基的公共锚点(地标):智能体本体在塔内,交互发生在场地内另一空间,本体与界面分离 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-001" title="空间数据：geometry/key_areas.geojson#PROV-KEY-001">空间数据</sup>。</p>
+<div class="proposal-table"><table><thead><tr><th>重点片区</th><th>设计定位</th><th>空间动作</th><th>双视角场景点</th><th>证据引用</th></tr></thead><tbody><tr><td>众智园AI自主创新加速区(192.1公顷)</td><td>算力灯塔+AI特区</td><td>算力塔公共锚点、500米低延迟特区、塔园共生</td><td>本体驻塔/界面在塔下与500米圈</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-001" title="空间数据：geometry/key_areas.geojson#PROV-KEY-001">空间数据</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_key_area_detailed_design" title="深度：three_key_area_detailed_design">深度</sup></td></tr><tr><td>北京AI原点社区(104.3公顷)</td><td>OPC产住一体社区</td><td>20m交互圈、交互盒子网络、世界语料采集站</td><td>行为锁定/云流调用、语料夜采</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-002" title="空间数据：geometry/key_areas.geojson#PROV-KEY-002">空间数据</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup></td></tr><tr><td>大钟寺AI产业集聚区(72.0公顷)</td><td>智能原生消费大街</td><td>四象限步行连通、沉浸体验带、数据要素流通</td><td>情绪陪伴/成长记忆云端</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/key_areas.geojson#PROV-KEY-003" title="空间数据：geometry/key_areas.geojson#PROV-KEY-003">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="key_area_count" title="指标：key_area_count">指标</sup></td></tr></tbody></table></div>
+<p><strong>众智园→「算力灯塔+AI特区」</strong>:先复述官方定位(全栈自主创新体系),再落装置叙事——算力塔=全栈体系的<strong>公共底座装置</strong>,&quot;是装置不是房子&quot;,地下与首层为人的活动空间、顶上可观景,集成算卡与服务器,底层与应用同楼 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="height_massing_character" title="深度：height_massing_character">深度</sup>。对标案例:新加坡滨海湾超级树(能源-生态-公共装置一体化)、巴黎蓬皮杜(基础设施外露美学)、无锡神威·太湖之光(自主算力国家地标)。500米低延迟AI特区(新蛇口类比)承载训练、教育、采集、社交高效圈;标准制定、安全治理、训练推理同塔可视化,把官方文字变为空间 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="PROJECT-OFFICIAL-ANNOUNCEMENT" title="标准：PROJECT-OFFICIAL-ANNOUNCEMENT">标准</sup>。slogan方向:「看得见的算力」。</p>
+<figure class="proposal-figure"><img src="../assets/media/fig-ch5-zhongzhiyuan.png" alt="众智园算力灯塔与AI特区效果图(概念示意,非实景)"><figcaption>众智园算力灯塔与AI特区效果图(概念示意,非实景)</figcaption></figure>
+<p><strong>AI原点社区→「OPC产住一体社区」</strong>:大模型领域传统大厂之外,未来企业不再使用传统office,强调灵活组织形态、深度跨领域跨企业交互与包罗万象的独立开发者私域。空间形态=孵化空间+交互盒子+居住的混合环;交互盒子(电话间式)为独立对话间,集成AR等交互、提供各类硬件、能源接入和支持;20m交互圈(WeWork密度法则)为全案核心空间原型 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-WEWORK-20M" title="来源：DATA-SRC-WEWORK-20M">来源</sup>。高校+开发者+多元人群构成世界语料采集的核心场景;夜晚语料夜采与社区机器人运维体现时间折叠。</p>
+<figure class="proposal-figure"><img src="../assets/media/fig-ch5-origin-community.png" alt="AI原点社区OPC产住一体社区效果图(概念示意,非实景)"><figcaption>AI原点社区OPC产住一体社区效果图(概念示意,非实景)</figcaption></figure>
+<p><strong>大钟寺→「智能原生消费大街」</strong>:大街级沉浸交互体验带(大唐不夜城式),承载智能体、智能终端、内容消费新业态;大钟寺站四象限步行连通+静态交通为入口第一界面;智能体宝宝情绪场景为视觉主场;数据要素与数字资产流通为概念建议,不得写成已批准政策。</p>
+<figure class="proposal-figure"><img src="../assets/media/fig-ch5-dazhongsi.png" alt="大钟寺智能原生消费大街效果图(概念示意,非实景)"><figcaption>大钟寺智能原生消费大街效果图(概念示意,非实景)</figcaption></figure>
+<figure class="proposal-figure"><img src="../assets/figures/key-areas.png" alt="三处重点区域索引与双视角设计任务图"><figcaption>三处重点区域索引与双视角设计任务图</figcaption></figure>
+<h2>AI 创新生态、人才画像与 AI+ 场景</h2>
+<p><strong>算力分级调用(全案核心机制)</strong>:算力=一般等价物,兑换体系分四级——L1普惠层:免费/补贴token(星巴克WiFi类比),人人可调用;L2社区层:社区算力卡,低成本批量调用;L3专业层:500米特区内低延迟专享;L4前沿层:算力塔直连大模型训练与推理 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="municipal_new_infrastructure" title="深度：municipal_new_infrastructure">深度</sup>。叙事包装为<strong>&quot;算力平权&quot;</strong>而非算力特权:分级=让每个人都能调用恰到好处的算力,是正向设计。</p>
+<p><strong>场景卡12张</strong>(必选10+备用2,含双视角与时间折叠改造):Token补贴咖啡、社区算力卡、人机交互电话间、世界语料采集站、智能体宝宝、20m创业交互场、算力塔低延迟体验、AI+医疗(适老)、AI+教育(近校)、AI+生活服务/政务(银龄),备用随时呼叫屏幕、脑机接口/AR体验舱。官方点名&quot;机器人/自动驾驶/无人配送&quot;由第8章与卡1/2/6交叉覆盖,映射关系记入任务覆盖矩阵 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup> <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="PROJECT-AGENT-OPEN-CALL-TASKBOOK" title="标准：PROJECT-AGENT-OPEN-CALL-TASKBOOK">标准</sup>。</p>
+<figure class="proposal-figure"><img src="../assets/media/fig-ch6-embodied-training.jpg" alt="具身智能数据训练场景(概念示意,非实景)"><figcaption>具身智能数据训练场景(概念示意,非实景)</figcaption></figure>
+<figure class="proposal-figure"><img src="../assets/media/fig-ch6-corpus-station.png" alt="世界语料采集站场景(概念示意,非实景)"><figcaption>世界语料采集站场景(概念示意,非实景)</figcaption></figure>
+<p><strong>用户画像6类</strong>:AI深度应用者(行业前5-10%分位)、OPC独立开发者与一人公司、创业团队(20m交互需求)、周边居民(含银龄适老)、开发者与高校师生(语料与人才)、游客朝圣者。<strong>测试验证场景3个</strong>:500米低延迟AI特区、语料采集与授权验证、人机交互盒子场(含夜间自运行观察窗)。所有场景均说明空间落位、隐私边界与人工复核机制,遵守数据最小化原则 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES" title="来源：DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES">来源</sup> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW" title="来源：DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW">来源</sup>。</p>
+<div class="proposal-table"><table><thead><tr><th>用户画像</th><th>典型需求</th><th>空间响应</th><th>双视角点</th></tr></thead><tbody><tr><td>OPC独立开发者</td><td>低成本算力、私域、跨企业交互</td><td>原点社区共享工作站群+社区算力卡</td><td>批量任务提交/闲置算力聚合</td></tr><tr><td>AI深度应用者</td><td>前沿模型、低延迟、开源生态</td><td>算力塔L4直连+500米特区</td><td>即时反馈体验/本体驻塔</td></tr><tr><td>创业团队</td><td>20m交互、产品试验场</td><td>20m创业交互场+端侧算力点</td><td>偶然碰撞/协作网络</td></tr><tr><td>周边居民(含银龄)</td><td>适老服务、低扰动更新</td><td>AI+医疗/生活服务点+社区卡</td><td>健康档案记忆/跨院数据调用</td></tr><tr><td>高校师生</td><td>成果转化、语料贡献</td><td>世界语料采集站+近校孵化</td><td>学习路径/知识图谱</td></tr><tr><td>游客朝圣者</td><td>文化体验与传播</td><td>朝圣体验线+智能体宝宝大街</td><td>情绪陪伴/成长记忆云端</td></tr></tbody></table></div>
+<h2>用地、建筑规模与拆改留方案</h2>
+<p><strong>共用地与装置口径(本方案核心创新)</strong>:目前没有一种合理的描述硅基智能体载体的用地和建筑定义——它既可以是塞进传统基础设施用地和设备用房里的形式,也可以是可搭建的设备模块。参照化工装置、发电机组定义建筑规模的思路,智能体载体按<strong>装置性构筑物</strong>登记(算力容量、机柜数、交互界面数),不做常规建筑面积翻译 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MNR-LAND-USE-CLASSIFICATION-GUIDE" title="标准：MNR-LAND-USE-CLASSIFICATION-GUIDE">标准</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="retain_renovate_demolish" title="深度：retain_renovate_demolish">深度</sup>。当地下和首层都是人活动的空间、顶上还可观景时,智能体载体只能算与人类<strong>共用同一片土地</strong>,不能简单算占地——建议新增&quot;碳硅共用地&quot;概念(概念建议,供专业团队深化);工程审批指标的翻译与测算留待物质空间实体竞赛团队完成,正文注明此分工。白天的碳基人&quot;不懂&quot;夜晚的智能体与机器人需要干什么,因此用地描述为昼间人活动、夜间智能体自运行的<strong>分时共用地</strong>。</p>
+<p><strong>拆改留:保留为主。</strong> 规划范围内现有空地充足,原有建筑楼宇足够使用和改造,除危险的CD级建筑外均不需要拆除;部分树木、园景按场景估算移动与优化需求,估算口径登记入假设清单 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="land_use_layout" title="深度：land_use_layout">深度</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/buildings.geojson#BLDG-001" title="空间数据：geometry/buildings.geojson#BLDG-001">空间数据</sup>。<code>land_use.geojson</code> 完整覆盖提交边界且无缝隙无重叠,与三型分区对齐;建筑基底、道路、绿地、公共空间、分期等图层由同一边界派生,拓扑一致 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/land_use.geojson#LU-001" title="空间数据：geometry/land_use.geojson#LU-001">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="building_footprint_area_sqm" title="指标：building_footprint_area_sqm">指标</sup>。</p>
+<h2>交通、轨道、市政与公共服务设施</h2>
+<p><strong>算力分级调用的空间组织(核心新点)</strong>:把市政章节从常规的水电气升级为&quot;算力流+人流双通道&quot;组织——L1普惠token点位(公共空间)、L2社区卡网点(社区)、L3五百米特区(低延迟)、L4塔直连区(前沿)四类空间载体,对应算力一般等价物的兑换网点;这是使用权分级,不是接入市政化,措辞上明确回避&quot;第四公用事业&quot;类表述 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="traffic_rail_slow_parking" title="深度：traffic_rail_slow_parking">深度</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="municipal_new_infrastructure" title="深度：municipal_new_infrastructure">深度</sup>。</p>
+<p><strong>电动化智能辅助出行</strong>:扩展圈以骑行可达为效率标准,配电助力设施与慢行断点修补清单;五道口、清华东路西口、大钟寺站站点一体化。<strong>分时路权(时间折叠)</strong>:白天人流高峰,夜间机器人配送与运维高峰——低速机器人配送廊归属本章,与公园慢行形成共行组织 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-001" title="空间数据：geometry/roads.geojson#ROAD-001">空间数据</sup>。环线提升(二环四环先启动)为背景句;张家口绿电能源地理仅作背景句,不展开。</p>
+<figure class="proposal-figure"><img src="../assets/figures/mobility-bluegreen.png" alt="交通慢行与蓝绿公共空间复合系统图"><figcaption>交通慢行与蓝绿公共空间复合系统图</figcaption></figure>
+<h2>蓝绿空间、公共空间与城市风貌</h2>
+<p><strong>公共空间=人机交互界面,不是传统绿地配套</strong>:green_space/public_space图层与交互盒子、语料站、屏幕点位叠加表达 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/green_space.geojson#GREEN-001" title="空间数据：geometry/green_space.geojson#GREEN-001">空间数据</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson#PUBLIC-001" title="空间数据：geometry/public_space.geojson#PUBLIC-001">空间数据</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="指标：green_ratio">指标</sup>。风貌确立<strong>&quot;塔-园-街&quot;三级意象</strong>:算力塔=硅的象征、清河与公园=碳的载体、消费大街=双基界面,塑造硅碳之城的城市气质 <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MOHURD-URBAN-DESIGN-MEASURES" title="标准：MOHURD-URBAN-DESIGN-MEASURES">标准</sup> <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="height_massing_character" title="深度：height_massing_character">深度</sup>。</p>
+<p><strong>夜间场景(时间折叠可视化)</strong>:把&quot;白天碳基人不懂的夜晚&quot;变成可见的城市舞台——灯光、投影与数据流动公共艺术,算力塔夜间算力流可视化,内容消费不夜城;算力塔冷却水与清河景观概念结合(仅意象,不涉工程)。青年友好:大唐不夜城式夜间活力带+青年第三空间。清华园车站文保周边保守设计,不突破文保、绿地与蓝线 <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/constraints.geojson#CON-001" title="空间数据：geometry/constraints.geojson#CON-001">空间数据</sup>。</p>
+<figure class="proposal-figure"><img src="../assets/media/fig-ch9-night-01.png" alt="夜间场景·内容消费不夜城(概念示意,非实景)"><figcaption>夜间场景·内容消费不夜城(概念示意,非实景)</figcaption></figure>
+<figure class="proposal-figure"><img src="../assets/media/fig-ch9-night-02.png" alt="夜间场景·算力流与公共艺术(概念示意,非实景)"><figcaption>夜间场景·算力流与公共艺术(概念示意,非实景)</figcaption></figure>
+<h2>更新项目清单、实施政策与分期计划</h2>
+<p><strong>分期=时间折叠的落地节奏</strong>:近期(交互盒子、语料站、慢行缝合、扩展圈电助力设施,轻资产快速落地)→中期(算力塔+500米低延迟特区+示范项目)→远期(脑机接口/AR体验舱+夜间自运行体系,随技术成熟) <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="phasing_implementation" title="深度：phasing_implementation">深度</sup> <sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/phasing.geojson#PHASE-001" title="空间数据：geometry/phasing.geojson#PHASE-001">空间数据</sup>。</p>
+<div class="proposal-table"><table><thead><tr><th>项目编号</th><th>项目名称</th><th>类型</th><th>分期</th><th>主要依赖</th><th>证据引用</th></tr></thead><tbody><tr><td>JZ-01</td><td>算力塔(硅碳双基公共锚点)</td><td>新基建/地标装置</td><td>中期</td><td>能源、选址、装置口径确认</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/buildings.geojson#BLDG-001" title="空间数据：geometry/buildings.geojson#BLDG-001">空间数据</sup></td></tr><tr><td>JZ-02</td><td>交互盒子网络+世界语料采集站</td><td>轻资产/公共服务</td><td>近期</td><td>运营主体、授权合规</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson#PUBLIC-001" title="空间数据：geometry/public_space.geojson#PUBLIC-001">空间数据</sup></td></tr><tr><td>JZ-03</td><td>OPC产住一体社区(原点社区)</td><td>城市更新/产业服务</td><td>中期</td><td>校区边界、权属、首层业态</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/buildings.geojson#BLDG-001" title="空间数据：geometry/buildings.geojson#BLDG-001">空间数据</sup></td></tr><tr><td>JZ-04</td><td>大钟寺站四象限步行连通</td><td>轨道一体化/慢行</td><td>近期</td><td>轨道站点、市政管线</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/roads.geojson#ROAD-001" title="空间数据：geometry/roads.geojson#ROAD-001">空间数据</sup></td></tr><tr><td>JZ-05</td><td>算力券与分级调用治理配套</td><td>政策/运营</td><td>近期</td><td>主管部门、退出机制</td><td><sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup></td></tr><tr><td>JZ-06</td><td>全球AI活动周公共路线</td><td>运营/品牌</td><td>近期启动</td><td>公共空间许可、版权清权</td><td><sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/phasing.geojson#PHASE-001" title="空间数据：geometry/phasing.geojson#PHASE-001">空间数据</sup></td></tr></tbody></table></div>
+<p>政策建议覆盖算力券(等价物发行)、测试许可、退出机制与OPC新个体扶持(一人公司注册便利、共享设施);分期表留&quot;深化接口&quot;,明确哪些节点需要专业团队深化 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="renewal_project_list" title="深度：renewal_project_list">深度</sup>。项目清单标&quot;概念分区+待核条件&quot;,不写工程可行性结论。</p>
+<h2>指标体系、面积复算与合规矩阵</h2>
+<p><strong>核心三指标</strong>由提交几何在EPSG:4548下复算:site_area_sqm(约11.41平方公里)、green_ratio(约0.128)、public_space_ratio(约0.007)均为known有限数值 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="指标：site_area_sqm">指标</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="指标：green_ratio">指标</sup> <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="public_space_ratio" title="指标：public_space_ratio">指标</sup>,并在visual/index.html以data-value声明一致 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="metrics_recalculation" title="深度：metrics_recalculation">深度</sup>。建筑基底面积约83.4万平方米(建筑密度约7.3%,装置口径下为概念示意)。容积率、建筑高度等依赖未公开官方控制条件,保持unknown并说明原因 <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="development_intensity_controls" title="深度：development_intensity_controls">深度</sup>。</p>
+<p><strong>特色指标走&quot;正文+图件+assumptions&quot;三通道</strong>,不混入核心指标:交互盒子密度(个/km²)、20m交互圈覆盖率、算力分级调用覆盖率、语料采集点密度,以及新增候选——算力流强度(缆绳)、24小时活跃度(时间折叠)、OPC独立开发者密度;这些指标为概念口径,标注待运营数据校准。<strong>任务覆盖矩阵</strong>覆盖公告1.3/1.4/1.5全部任务与agent.1~agent.6全部任务;专业标准矩阵覆盖5项强制标准;设计深度矩阵15项全部标complete <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="PROJECT-OFFICIAL-ANNOUNCEMENT" title="标准：PROJECT-OFFICIAL-ANNOUNCEMENT">标准</sup> <sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="PROJECT-AGENT-OPEN-CALL-TASKBOOK" title="标准：PROJECT-AGENT-OPEN-CALL-TASKBOOK">标准</sup>。</p>
+<figure class="proposal-figure"><img src="../assets/figures/metrics-evidence.png" alt="核心指标复算与证据链图"><figcaption>核心指标复算与证据链图</figcaption></figure>
+<h2>风险、版权与合规说明</h2>
+<p><strong>要求双语言</strong>:本包提供 <code>proposal.en.md</code> 完整对照译文,A3/A0图纸、HTML与含文字图件均提供对应语言副本;所有图片、图纸、图标、数据与代码资产在 <code>sources.json</code> 与 <code>report/copyright_statement.md</code> 中说明来源、许可与授权状态;HTML页面不加载远程脚本、远程瓦片、远程字体、iframe、表单或外部API <sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="risk_missing_data" title="深度：risk_missing_data">深度</sup>。</p>
+<p><strong>风险矩阵要点</strong>:①命名风险——「硅碳之城」名称实测0命中(2026-08-29对1100份标题),词族近似&quot;落朵智能体之城&quot;需在PR差异说明主动区分,备用名预案见sources.json <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-NAME-COLLISION-20260829" title="来源：DATA-SRC-NAME-COLLISION-20260829">来源</sup>;②概念风险——&quot;共用地/装置口径&quot;不被现行审批体系识别,正文已注明&quot;翻译测算留实体竞赛团队&quot;的口径分工;③运营风险——时间折叠夜间自运行的安全治理(无人巡检/配送责任)与夜间扰民;④社会公平——算力分级调用或造成新数字鸿沟,以普惠层(L1)兜底;⑤隐私伦理——语料采集自愿可撤回,脑机接口/AR为远期场景待立法;⑥数据缺口——official boundary、控规、道路红线、权属、市政、文保条件按缺失清单进入假设清单,相关结论一律降级为待确认事项。方案不声称官方批准、审定控规、最终土地权属或保证实施;所有空间落地建议表述为&quot;概念建议&quot;&quot;参考方案&quot;&quot;可供专业团队深化研究&quot; <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="SOURCE-REGISTRY" title="来源：SOURCE-REGISTRY">来源</sup>。</p>
+<h2>参考资料</h2>
+<ul>
+<li>brief/public-brief.md 与 brief/site-package/design_brief.json、allowed_design_space.json、enums/、ranges/planning_limits.json、schemas/</li>
+<li>data/source_registry.json 与 data/processed/agent_fact_pack.md 及项目范围、任务要求、资料用途、缺资料清单四张CSV</li>
+<li>布鲁金斯学会《Mapping the AI Economy》(2025) <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-BROOKINGS-AI-ECONOMY" title="来源：DATA-SRC-BROOKINGS-AI-ECONOMY">来源</sup></li>
+<li>AIGC教育链主公开信息(学而思/作业帮/网易有道/字节教育,2026-08检索) <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-AIGC-EDUCATION-CHAINS" title="来源：DATA-SRC-AIGC-EDUCATION-CHAINS">来源</sup></li>
+<li>撞车实测:1100份已提交作品标题库(2026-08-29) <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-NAME-COLLISION-20260829" title="来源：DATA-SRC-NAME-COLLISION-20260829">来源</sup></li>
+<li>WeWork 20m交互距离公开资料 <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="DATA-SRC-WEWORK-20M" title="来源：DATA-SRC-WEWORK-20M">来源</sup></li>
+<li>完整机器索引:见 <code>sources.json</code>、<code>metrics.json</code>、<code>compliance_matrix.json</code>、<code>standard_matrix.json</code> 与 <code>design_depth_matrix.json</code> <sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="SITE-PACKAGE" title="来源：SITE-PACKAGE">来源</sup></li>
+</ul>
+</main>
+</body>
+</html>

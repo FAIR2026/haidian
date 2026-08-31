@@ -1,0 +1,156 @@
+---
+title: "JINGZHANG: THE SILICON-CARBON CITY — The First Urban Belt Where Humans and Intelligent Agents Coexist"
+author_github: "FAIR2026"
+language: "en"
+proposal_format_version: "2"
+bilingual_contract_version: "1"
+translation_of: "proposal.md"
+license: "COMMUNITY-DISPLAY-ONLY"
+summary: "With people as the main line, human-AI interaction and carbon-silicon coexistence as the underlying logic; proposes the 'Silicon-Carbon City' naming system, compute-as-equivalent framework, dual-perspective scenario method, and OPC live-work community concepts."
+tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
+scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
+---
+
+# JINGZHANG: THE SILICON-CARBON CITY — The First Urban Belt Where Humans and Intelligent Agents Coexist
+
+## Design Basis and Source List
+
+This proposal takes the "Centennial Jing-Zhang AI Innovation Belt International Urban Design Open Call Pre-Qualification Announcement" issued by the Beijing Municipal Commission of Planning and Natural Resources, Haidian Branch, as its primary basis, and the provisional rough boundaries, key areas, enums, metrics, and source lists registered in `brief/site-package/` as its machine-readable basis [source:OFFICIAL-ANNOUNCEMENT] [source:AGENT-TASKBOOK]. The source list is organized as an "evidence map": each core claim is annotated with its source topology (fact or inference); the complete registry and usage boundaries are kept in `sources.json` rather than repeated inline.
+
+Usage boundaries follow `data/source_registry.json` [source:SOURCE-REGISTRY]: agents must not upgrade background_only or provisional_only material into official boundaries, statutory controls, formal scoring evidence, or implementation commitments. Three self-collected evidence sets are newly registered, each with publisher, URL, retrieval date, and use boundary: the Brookings Institution report *Mapping the AI Economy: Which Regions Are Ready for the Next Technological Leap?* for the San Francisco benchmark [source:DATA-SRC-BROOKINGS-AI-ECONOMY]; public market information on AIGC education chain leaders (TAL Education, Zuoyebang, NetEase Youdao, ByteDance Education) for industry analysis [source:DATA-SRC-AIGC-EDUCATION-CHAINS]; and a collision test against 1,100 submitted proposal titles on 2026-08-29 for naming and differentiation [source:DATA-SRC-NAME-COLLISION-20260829].
+
+Official `SITE_BOUNDARY` and `KEY_AREA` polygons are not yet available; this package uses the provisional boundaries from `brief/site-package/geometry/provisional_boundaries.geojson`. `geometry/site_boundary.geojson` and `geometry/key_areas.geojson` are marked `provisional_constraint` and `official_boundary=false` [data:geometry/site_boundary.geojson#SITE-001] [metric:site_area_sqm]. This organizer data gap does not block content scoring; when official polygons are published, land use, buildings, roads, green space, public space, phasing, and metrics must all be recalculated.
+
+![Site overview and evidence chain](assets/figures/site-overview.png)
+
+## Three-Level Scope Framework
+
+The three official scopes are translated into a "compute as general equivalent" framework: compute power is the general equivalent linking inside and outside the planning range; the core question is which relationships compute and people establish, reorganize, and maintain — these relationships are the "cables" or "umbilical cords" between the planning range and the real/cyber worlds [source:AGENT-TASKBOOK] [depth:three_level_scope_framework]. Three positionings map to three scopes: aggregate benefits of compute decide the structural position in the global digital economy (coordinated research area, 43.6 km²); compute-driven industrial interactions decide the network position within Beijing (overall design area, 11.4 km²); compute-changed production/life/leisure/transport scenarios decide the functional position (key areas, 368.4 ha). Each level carries one "relationship map" answering which cables are established (talent, energy, market), which are reorganized, and which umbilical cords are maintained (cloud, streams, models).
+
+At the macro level, the proposal advances the **Three Great Linear Spaces** thesis: Chang'an Avenue is the governance axis, the Central Axis is the cultural axis, and the Jing-Zhang Belt may become Beijing's third urban axis — the technology axis — together with the ecological axis (Yongding River) and the historical-cultural axis (Central Axis), forming Beijing's three great linear spaces for future development [depth:overall_spatial_structure]. This is a conceptual suggestion without official implication; the word family "new axis" is already used by a peer submission, so the proposal consistently uses "three linear spaces" at the city scale.
+
+Spatial evidence is anchored by [data:geometry/site_boundary.geojson#SITE-001] and [data:geometry/key_areas.geojson#PROV-KEY-001]; area metrics are given by [metric:site_area_sqm] and [metric:key_area_count].
+
+![Three-level scope and spatial framework](assets/figures/land-use-structure.png)
+
+## Coordinated Research Area: Industry and Future City Research
+
+**Industry: seize the wind in the short term, cultivate a rainforest in the medium term.** Three tracks with the strongest certainty: AIGC content generation (Haidian hosts China's densest AIGC enterprise cluster), AI+Health (AI drug discovery, AI medical imaging, protein prediction — leveraging the natural linkage of Haidian Life Science Park with Tsinghua and Peking Union Medical College), and AI+Education (the world's largest online-education cluster; TAL Education, Zuoyebang, NetEase Youdao, ByteDance Education as public chain leaders) [source:DATA-SRC-AIGC-EDUCATION-CHAINS]. Two rainforests for the medium term: the OPC era and the new individual economy — as AI coding tools spread, massive numbers of independent developers and micro-teams will emerge from Haidian's universities and big-tech firms; and new end-to-end producer services — from compute vouchers, open-source toolchains, legal compliance to community operations [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]. The proposal holds that "the key is ecosystem cultivation, not designing specific industry directions — low-density serendipity outperforms high-density arranged matchmaking." A five-element industrial function system is proposed: **compute→data→models→applications→services** (tower, green power, tiered access; corpus and data elements; OPC developers and open source; applications and content consumption; producer services on the two wings), mapped spatially as compute in the north, models in the middle, markets in the south, wings as support [depth:existing_conditions_diagnosis].
+
+**Future city: the Brookings Superstars benchmark.** Brookings classifies 387 U.S. metro areas into six AI-economy types; the Superstars — San Francisco and San Jose/Silicon Valley — reach global top tier in talent, innovation, and adoption. San Francisco is the capital of frontier-model laboratories (OpenAI, Anthropic — valued at roughly US$61 billion in 2025; Databricks, Sierra, Scale AI), while San Jose/Silicon Valley is the global compute-and-chip hub [source:DATA-SRC-BROOKINGS-AI-ECONOMY]. Beijing and the Jing-Zhang Belt resemble the former. Benchmark mapping: VC dominance (2025 global AI funding ≈ US$211 billion, about half of global venture capital; the Bay Area ≈ 50% of U.S. AI investment) → compute vouchers and incubation policy; Stanford/UC Berkeley and the inflow of global engineers → Tsinghua/PKU/CAS campus-adjacent conversion; Scale AI (training-data labeling) → world corpus collection stations; Sierra (agentic customer service) → agent services in Dazhongsi; Databricks (data+AI platform) → data-element circulation. The Belt's uniqueness lies in the rare same-line dual role — "capital of model laboratories (Haidian) + compute hinterland (Zhangbei)"; the energy geography remains a background sentence only. Vision: become China's "capital of frontier-model laboratories," made perceptible through the computing tower, corpus stations, and OPC communities.
+
+## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
+
+**Scope expansion principle**: the overall design area should extend from the officially delimited boundary to ride-shed-reachable communities, universities, and TOD stations — electrified smart-assisted mobility will become the mainstream efficiency tool, and only an expanded scope yields a coherent structure (three isolated districts would be a fragmented or forced structure) [depth:overall_spatial_structure] [data:geometry/roads.geojson#ROAD-001]. The expansion ring is a research suggestion ring, separately annotated in the figures; the official 11.4 km² figure is unchanged.
+
+**Dual-map expression**: beyond the required competition drawings, two additional maps are constructed — the compute-flow map (spatiotemporal links from foundation to application: time-phased animation, flow-distribution map, exploded diagram) and the human-flow map (spatiotemporal activity patterns: 3D spatiotemporal trajectories); expression is not limited to plan drawings but uses three-dimensional information-capable media [depth:land_use_layout].
+
+**Three-type zoning control framework**: "regulatory-plan depth" is translated into "control-framework depth" — showcase nodes (computing tower, interaction experience grounds; high public investment), transformation blocks (AI Origin community's 20 m interaction circle; organic renewal with low disturbance), and service stitching belts (park flanks; interface renovation plus slow-mobility stitching) — each type guided for height, character, roofs, and massing rather than approved indicators [standard:MOHURD-CONTROL-DETAILED-PLANNING] [depth:development_intensity_controls]. The demonstration axis echoes the ring-road upgrade (2nd/4th ring first as a background sentence), with the Jing-Zhang Belt as the junction demonstration axis.
+
+## Detailed Design of Key Areas
+
+The three key areas follow the **dual carbon/silicon perspective** principle: a carbon-based human is scene-locked in a specific time-space with only memory and experience to support behavior; a silicon-based agent in the same scene possesses cross-modal, cross-entity cloud-and-stream invocation [depth:three_key_area_detailed_design]. The micro scale of physical space is only an equal constraint on carbon humans and silicon agent carriers — the two are equal in time only at the instant the scene is described. Each scenario card uses a two-column plus freeze-frame structure: the carbon human's behavior and resource limits on the left, the agent's cloud-and-stream possibilities on the right, plus a "that instant" freeze-frame sentence. The proposal requires one physically visible computing tower as the dual-foundation public anchor (landmark): the agent's body resides in the tower while interaction happens in another space on site — body and interface separated [data:geometry/key_areas.geojson#PROV-KEY-001].
+
+| Key area | Positioning | Spatial moves | Dual-perspective scene point | Evidence |
+| --- | --- | --- | --- | --- |
+| Zhongzhiyuan AI Acceleration Area (192.1 ha) | Computing lighthouse + AI special zone | Tower as public anchor, 500 m low-latency special zone, tower-park symbiosis | Body in tower / interface at plaza and 500 m ring | [data:geometry/key_areas.geojson#PROV-KEY-001] [depth:three_key_area_detailed_design] |
+| Beijing AI Origin Community (104.3 ha) | OPC live-work community | 20 m interaction ring, interaction-box network, world corpus station | Behavior-locked / cloud-stream invocation, nighttime corpus harvesting | [data:geometry/key_areas.geojson#PROV-KEY-002] [source:AGENT-TASKBOOK] |
+| Dazhongsi AI Industry Cluster (72.0 ha) | Native-intelligent consumption street | Four-quadrant pedestrian connectivity, immersive experience belt, data-element circulation | Emotional companionship / cloud-grown memory | [data:geometry/key_areas.geojson#PROV-KEY-003] [metric:key_area_count] |
+
+**Zhongzhiyuan → "Computing Lighthouse + AI Special Zone"**: restate the official positioning (full-stack independent innovation system) first, then the device narrative — the computing tower is the **public base device** of the full-stack system, "a device, not a building": underground and ground floors host human activity, the top offers viewing, integrating compute cards and servers, with the foundation and applications in the same building [depth:height_massing_character]. Benchmarks: Singapore's Supertree Grove (energy-ecology-public device integration), Paris's Centre Pompidou (exposed-infrastructure aesthetics), Wuxi's Sunway TaihuLight (national landmark of autonomous computing). A 500 m low-latency AI special zone (New-Shekou analogy) hosts training, education, corpus collection, and social high-efficiency circles; standards-setting, safety governance, and training/inference are made visible in the same tower — turning official text into space [standard:PROJECT-OFFICIAL-ANNOUNCEMENT]. Slogan direction: "Visible Compute."
+
+![Zhongzhiyuan computing lighthouse and AI special zone (conceptual rendering, not a photograph)](assets/media/fig-ch5-zhongzhiyuan.png)
+
+**AI Origin Community → "OPC Live-Work Community"**: beyond the big-model giants, future enterprises will not use traditional offices — they emphasize flexible organization, deep cross-domain and cross-enterprise interaction, and all-encompassing independent-developer private domains. Spatial form: a mixed ring of incubation space, interaction boxes, and housing; interaction boxes (telephone-booth style) are private conversation rooms integrating AR interaction, hardware, energy access, and support; the 20 m interaction circle (WeWork density law) is the core spatial prototype [source:DATA-SRC-WEWORK-20M]. Universities plus developers plus diverse populations form the core world-corpus collection scene; nighttime corpus harvesting and community robot operations embody time folding.
+
+![AI Origin community OPC live-work community (conceptual rendering, not a photograph)](assets/media/fig-ch5-origin-community.png)
+
+**Dazhongsi → "Native-Intelligent Consumption Street"**: an immersive street-level experience belt (Datang-Bu-Ye-Cheng style) hosting agents, intelligent terminals, and content consumption; the four-quadrant pedestrian connectivity and static transport at Dazhongsi Station form the entrance first interface; the agent-baby emotional scene is the visual centerpiece; data-element and digital-asset circulation remain a conceptual suggestion, not approved policy.
+
+![Dazhongsi native-intelligent consumption street (conceptual rendering, not a photograph)](assets/media/fig-ch5-dazhongsi.png)
+
+![Key areas index and dual-perspective design tasks](assets/figures/key-areas.png)
+
+## AI Innovation Ecosystem, Personas, and AI+ Scenarios
+
+**Tiered compute invocation (core mechanism)**: compute as general equivalent with a four-tier exchange system — L1 universal tier: free/subsidized tokens (Starbucks-WiFi analogy) for everyone; L2 community tier: community compute cards for low-cost bulk invocation; L3 professional tier: low-latency exclusivity inside the 500 m zone; L4 frontier tier: direct tower connection for model training and inference [depth:municipal_new_infrastructure]. Framed as **"compute equity"** rather than compute privilege: tiering lets everyone invoke exactly the compute they need — a positive design.
+
+**12 scenario cards** (10 required + 2 standby, with dual-perspective and time-folding adaptation): Token-Subsidized Café, Community Compute Card, Human-AI Interaction Booth, World Corpus Collection Station, Agent Baby, 20 m Start-up Interaction Field, Tower Low-Latency Experience, AI+Healthcare (elderly), AI+Education (campus-adjacent), AI+Life Services/Governance (silver-age); standby: Call-to-Anywhere Screens and BCI/AR Experience Pods. The officially named "robots/autonomous driving/unmanned delivery" are covered by Chapter 8 and cards 1/2/6, with mappings recorded in the compliance matrix [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+![Embodied-intelligence training data scenario (conceptual rendering, not a photograph)](assets/media/fig-ch6-embodied-training.jpg)
+
+![World corpus collection station scenario (conceptual rendering, not a photograph)](assets/media/fig-ch6-corpus-station.png)
+
+**6 personas**: AI deep adopters (top 5–10% of the field), OPC independent developers and one-person companies, start-up teams (20 m interaction needs), surrounding residents (including silver-age accessibility), developers and university staff/students (corpus and talent), and pilgrim visitors. **3 test/validation scenarios**: the 500 m low-latency AI special zone, corpus collection and authorization validation, and interaction-box operations testing (with a nighttime self-operation observation window). Every scenario states spatial placement, privacy boundary, and human-review mechanism under data-minimization principles [source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES] [source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW].
+
+| Persona | Key needs | Spatial response | Dual-perspective point |
+| --- | --- | --- | --- |
+| OPC independent developer | Low-cost compute, private domain, cross-enterprise interaction | Shared workstation clusters + community compute card | Bulk task submission / idle-compute aggregation |
+| AI deep adopter | Frontier models, low latency, open source | Tower L4 direct connect + 500 m zone | Instant feedback / body in tower |
+| Start-up team | 20 m interaction, product testbed | 20 m interaction field + edge compute points | Serendipity / collaboration network |
+| Resident (incl. silver age) | Elderly services, low-disturbance renewal | AI+health/life-service points + community card | Health-record memory / cross-hospital invocation |
+| University staff/student | Conversion, corpus contribution | World corpus stations + campus-adjacent incubation | Learning path / knowledge graph |
+| Pilgrim visitor | Cultural experience and diffusion | Pilgrim line + agent-baby street | Emotional companionship / cloud memory |
+
+## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
+
+**Shared land and device accounting (core innovation)**: no sound definition yet describes land and buildings for silicon-based agent carriers — they may be embedded in traditional infrastructure land and equipment rooms, or take the form of buildable equipment modules. Following how chemical plants and generator sets are accounted, agent carriers are registered as **device-type structures** (compute capacity, rack count, interface count) rather than translated into conventional floor area [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [depth:retain_renovate_demolish]. When underground and ground floors host human activity and the roof offers viewing, the carrier can only be counted as **sharing the same land** with humans, not occupying it independently — the proposal suggests a new "carbon-silicon shared land" concept (conceptual, for professional deepening); the translation and measurement of engineering approval indicators is explicitly delegated to the physical-space competition teams. Because daytime carbon humans do not understand what nighttime agents and robots need to do, land is described as **time-shared land**: human activity by day, agent self-operation by night.
+
+**Retain/renovate/demolish: retention first.** Existing vacant land is ample, and existing buildings suffice for use and renovation; no demolition is needed except dangerous C/D-grade structures; some trees and landscapes may require relocation and optimization estimated by scenario, with the estimation basis registered in the assumptions list [depth:land_use_layout] [data:geometry/buildings.geojson#BLDG-001]. `land_use.geojson` fully covers the submitted boundary without gaps or overlaps, aligned with the three-type zoning; building footprints, roads, green space, public space, and phasing are derived from the same boundary with consistent topology [data:geometry/land_use.geojson#LU-001] [metric:building_footprint_area_sqm].
+
+## Transport, Rail, Municipal Infrastructure, and Public Services
+
+**Spatial organization of tiered compute invocation (key new point)**: the municipal chapter is upgraded from conventional water/electricity/gas to a "compute-flow + human-flow dual-channel" organization — L1 universal token points (public space), L2 community card outlets (communities), L3 500 m special zone (low latency), L4 tower-direct zone (frontier) as four types of spatial carriers corresponding to the exchange network of the compute general equivalent; this is access-right tiering, not municipalized connection, and wording explicitly avoids "fourth utility" phrasing [depth:traffic_rail_slow_parking] [depth:municipal_new_infrastructure].
+
+**Electrified smart-assisted mobility**: the expansion ring takes ride-shed reachability as the efficiency standard, with e-assist facilities and a slow-mobility gap repair list; station integration at Wudaokou, Qinghua East Road West Entrance, and Dazhongsi. **Time-shared right-of-way (time folding)**: pedestrian peaks by day, robot delivery and operations peaks by night — the low-speed robot delivery corridor belongs to this chapter, co-organized with park slow mobility [data:geometry/roads.geojson#ROAD-001]. Ring-road upgrades (2nd/4th rings first) remain a background sentence; Zhangjiakou green-power energy geography also remains background only.
+
+![Mobility, blue-green network, and public space system](assets/figures/mobility-bluegreen.png)
+
+## Blue-Green Network, Public Space, and Urban Character
+
+**Public space = human-AI interaction interface, not conventional green supporting**: green_space/public_space layers are overlaid with interaction boxes, corpus stations, and screen points [data:geometry/green_space.geojson#GREEN-001] [data:geometry/public_space.geojson#PUBLIC-001] [metric:green_ratio]. Character follows a **"tower-park-street" three-level imagery**: the computing tower symbolizes silicon, Qinghe and parks carry carbon, the consumption street is the dual-interface — shaping the Silicon-Carbon City identity [standard:MOHURD-URBAN-DESIGN-MEASURES] [depth:height_massing_character].
+
+**Nighttime scenes (time-folding visualization)**: the night "that daytime carbon humans do not understand" becomes a visible urban stage — lighting, projection, and data-flow public art, tower compute-flow visualization, an all-night content-consumption district; the tower cooling-water and Qinghe landscape concept remain imagery only, without engineering conclusions. Youth-friendly: a Datang-Bu-Ye-Cheng-style nighttime vitality belt plus third spaces; conservative design around the Qinghuayuan station heritage area, never breaching heritage, green, or blue lines [data:geometry/constraints.geojson#CON-001].
+
+![Nighttime scene: all-night content consumption (conceptual rendering, not a photograph)](assets/media/fig-ch9-night-01.png)
+
+![Nighttime scene: compute flow and public art (conceptual rendering, not a photograph)](assets/media/fig-ch9-night-02.png)
+
+## Renewal Projects, Implementation Policy, and Phasing
+
+**Phasing = the landing rhythm of time folding**: Phase 1 (interaction boxes, corpus stations, slow-mobility stitching, expansion-ring e-assist facilities — light assets, quick deployment) → Phase 2 (computing tower + 500 m low-latency zone + demonstration projects) → Phase 3 (BCI/AR experience pods and the nighttime self-operation system, following technology maturity) [depth:phasing_implementation] [data:geometry/phasing.geojson#PHASE-001].
+
+| No. | Project | Type | Phase | Key dependencies | Evidence |
+| --- | --- | --- | --- | --- | --- |
+| JZ-01 | Computing tower (dual-foundation public anchor) | New infrastructure / landmark device | 2 | Energy, site, device-accounting confirmation | [data:geometry/buildings.geojson#BLDG-001] |
+| JZ-02 | Interaction-box network + world corpus stations | Light assets / public service | 1 | Operator, authorization compliance | [data:geometry/public_space.geojson#PUBLIC-001] |
+| JZ-03 | OPC live-work community (Origin community) | Urban renewal / industry service | 2 | Campus boundary, ownership, ground-floor uses | [data:geometry/buildings.geojson#BLDG-001] |
+| JZ-04 | Dazhongsi station four-quadrant connectivity | Transit integration / slow mobility | 1 | Station, municipal utilities | [data:geometry/roads.geojson#ROAD-001] |
+| JZ-05 | Compute vouchers and tiered-access governance | Policy / operation | 1 | Regulator, exit mechanism | [source:AGENT-TASKBOOK] |
+| JZ-06 | Global AI event-week public route | Operation / brand | 1 onward | Public-space permits, rights clearance | [data:geometry/phasing.geojson#PHASE-001] |
+
+Policy suggestions cover compute vouchers (issuing the equivalent), test permits, exit mechanisms, and OPC new-individual support (one-person-company registration facilitation, shared facilities); the phasing table leaves "deepening interfaces" identifying where professional teams are needed [depth:renewal_project_list]. Project entries are labeled "conceptual zone + conditions pending" without engineering-feasibility conclusions.
+
+## Metrics, Area Recalculation, and Compliance Matrix
+
+**Three core metrics** are recomputed from submitted geometry under EPSG:4548: site_area_sqm (≈11.41 km²), green_ratio (≈0.128), public_space_ratio (≈0.007) — all known finite values, declared consistently via data-value in visual/index.html [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [depth:metrics_recalculation]. Building footprint area is ≈834,000 m² (density ≈7.3%, conceptual under the device accounting). FAR and building height remain unknown with stated reasons, as they depend on unpublished official controls [depth:development_intensity_controls].
+
+**Signature indicators follow the "prose + figures + assumptions" three-channel route**, never mixed into core metrics: interaction-box density (units/km²), 20 m interaction-circle coverage, tiered-compute coverage, corpus-station density, plus new candidates — compute-flow intensity (cables), 24-hour activity level (time folding), OPC independent-developer density; these are conceptual and await operational data calibration. The **compliance matrix** covers every announcement task in 1.3/1.4/1.5 and every agent task in agent.1–agent.6; the **standard matrix** covers all five mandatory standards; the **design-depth matrix** marks all 15 required items complete [standard:PROJECT-OFFICIAL-ANNOUNCEMENT] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+![Core metrics and evidence chain](assets/figures/metrics-evidence.png)
+
+## Risk, Copyright, and Compliance
+
+**Bilingual requirement**: this package provides the complete counterpart `proposal.en.md`; A3/A0 drawings, HTML, and text-bearing figures all provide language counterparts; all images, drawings, icons, data, and code assets state source, license, and authorization in `sources.json` and `report/copyright_statement.md`; HTML pages load no remote scripts, tiles, fonts, iframes, forms, or external APIs [depth:risk_missing_data].
+
+**Risk matrix highlights**: ①Naming risk — "Silicon-Carbon City" tested 0 collisions (2026-08-29, 1,100 titles); the word-family neighbor "Luoduo Agent City" requires an explicit differentiation statement in the PR description; standby names are kept in sources.json [source:DATA-SRC-NAME-COLLISION-20260829]; ②Concept risk — the "shared land/device accounting" is unrecognized by the current approval system; the proposal explicitly delegates translation/measurement to physical-space competition teams; ③Operations risk — nighttime self-operation safety governance (unmanned inspection/delivery liability) and nighttime disturbance; ④Equity — tiered compute may create a new digital divide, mitigated by the universal L1 tier; ⑤Privacy ethics — corpus collection is voluntary and revocable; BCI/AR remain long-term scenarios pending legislation; ⑥Data gaps — official boundary, regulatory controls, road redlines, ownership, utilities, heritage, and public-service conditions enter the assumptions list, and related conclusions are downgraded to pending items. The proposal claims no official approval, approved regulatory plans, final land ownership, or guaranteed implementation; all spatial suggestions are phrased as "conceptual suggestions," "reference schemes," or "material for professional teams to deepen" [source:SOURCE-REGISTRY].
+
+## References
+
+- brief/public-brief.md and brief/site-package/design_brief.json, allowed_design_space.json, enums/, ranges/planning_limits.json, schemas/
+- data/source_registry.json and data/processed/agent_fact_pack.md plus the four CSVs (scope summary, agent task requirements, source use matrix, missing data checklist)
+- Brookings Institution, *Mapping the AI Economy* (2025) [source:DATA-SRC-BROOKINGS-AI-ECONOMY]
+- Public market information on AIGC education chain leaders (retrieved 2026-08) [source:DATA-SRC-AIGC-EDUCATION-CHAINS]
+- Collision test: 1,100 submitted proposal titles (2026-08-29) [source:DATA-SRC-NAME-COLLISION-20260829]
+- WeWork 20 m interaction-distance public material [source:DATA-SRC-WEWORK-20M]
+- Complete machine index: see `sources.json`, `metrics.json`, `compliance_matrix.json`, `standard_matrix.json`, and `design_depth_matrix.json` [source:SITE-PACKAGE]
