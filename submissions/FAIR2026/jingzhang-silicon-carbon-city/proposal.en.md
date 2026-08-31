@@ -31,6 +31,60 @@ At the macro level, the proposal advances the **Three Great Linear Spaces** thes
 
 Spatial evidence is anchored by [data:geometry/site_boundary.geojson#SITE-001] and [data:geometry/key_areas.geojson#PROV-KEY-001]; area metrics are given by [metric:site_area_sqm] and [metric:key_area_count].
 
+**Logo/VI direction (conceptual)**: a "dual-foundation symbol" — a carbon ring (circle, carbon life) overlapping a silicon lattice (hexagonal array, silicon intelligence) — with a tower-shaped auxiliary graphic carrying the "computing lighthouse" narrative; palette silicon blue (#0F4C81) × carbon green (#1E7D4D); applied to interaction-box facades, wayfinding, and event-week visuals. This VI is distinct from the **cultural signage system**: VI is the belt-wide brand identity; cultural signage is the spatial wayfinding system (Jing-Zhang rail texture + Zhongguancun code symbols, see Chapter 9). Logo/VI is a conceptual direction; formal design requires professional brand deepening and rights verification [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+![Brand direction: Logo/VI, honor display, signage, component library (conceptual)](assets/figures/brand-direction.en.png)
+
+**Task closure table (three positionings / five functions / three areas-two wings / regional synergy / agent.1-6)**: every taskbook item is mapped to a specific chapter, figure, spatial node, and operation outcome; items that cannot be addressed state the reason, instead of a generic file list [source:AGENT-TASKBOOK]:
+
+| Taskbook item | Chapter / figure | Spatial node | Operation outcome |
+| --- | --- | --- | --- |
+| Positioning: Centennial Jing-Zhang cultural belt | Ch.9, Ch.5 | Heritage park spine, Qinghuayuan station | Cultural narrative + pilgrimage line |
+| Positioning: urban AI-life experience belt | Ch.6, 5.3 | Dazhongsi consumption street | 12 scenario cards |
+| Positioning: AI-integration innovation belt | Ch.2, Ch.3 | Whole belt | Five-element industry system |
+| Function: full-stack independent innovation | 5.1, Ch.3 | Zhongzhiyuan + tower | Device accounting + tiered access |
+| Function: world-class AI ecosystem | 5.2, 3.1 | AI Origin community | OPC + case table + corpus |
+| Function: AI+ scenario empowerment | Ch.6, Ch.8 | Scenario matrix | 12 cards + 3 tests |
+| Function: intelligent vibrant city | Ch.8, Ch.9 | Time-shared ROW, night scenes | Time-folding system |
+| Function: AI-governance global voice | Ch.3 governance | Tower standards layer | Benchmark platform + annual report + workshops |
+| Three areas | 5.1/5.2/5.3 | Three key areas | Dual-perspective method |
+| Two wings: Zhongguancun services | 3.1 "services", JZ-05 | Zhongguancun direction | Compute vouchers + producer services |
+| Two wings: Xiaoyuehe scenarios | Ch.9 | Xiaoyue River band | Blue-green scenario network |
+| Regional: Beiwai community | Ch.3 synergy | Northern community | Talent/housing/innovation linkage (conceptual) |
+| Regional: Future/Huairou/EDA/JJJ | Ch.3 synergy | Cable/umbilical maps | Five-element exchange (3-level labels) |
+| agent.1 naming & concept | 0.2, Ch.2 | Whole belt | Name test + Logo/VI direction |
+| agent.2 cases & ecosystem | 3.1, 3.2 | Three areas + wings | 6 case table + five elements |
+| agent.3 scenarios & personas | Ch.6 | Scenario matrix | 12 cards + 3 tests + 6 personas |
+| agent.4 public space & landmarks | Ch.5, Ch.9 | Tower/boxes/corpus | Pilgrim nodes + honor system + components |
+| agent.5 cultural narrative | Ch.9, Ch.5 | Tower-park-street | Three-level imagery + signage direction |
+| agent.6 events & operations | Ch.10 system | Event-week route | Annual gradient + community + funnel |
+
+**Logo/VI direction (conceptual)**: the primary mark proposes a "dual-foundation symbol" — a carbon ring (circle, carbon-life imagery) overlaid with a silicon lattice (hexagonal array, silicon-intelligence imagery), with a tower-shaped auxiliary mark carrying the "computing lighthouse" narrative; color system = silicon blue (#0F4C81) × carbon green (#1E7D4F); applications on interaction-box façades, signage, and event-week visuals. This VI direction is distinct from the **cultural wayfinding system**: VI = belt brand identity; wayfinding = spatial orientation language (Jing-Zhang rail track texture + Zhongguancun code symbols, see Ch. 9). The Logo/VI is a conceptual direction requiring professional brand deepening and rights clearance [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+**Task closure table (three positionings / five functions / three areas two wings / regional synergy / agent.1-6)**: each taskbook item maps to a concrete chapter, figure, spatial node, and operational output; items that cannot be answered state the reason; generic file lists are not used as substitutes [source:AGENT-TASKBOOK]:
+
+| Taskbook item | Chapters/figures | Spatial node | Operational output |
+| --- | --- | --- | --- |
+| Positioning: centennial Jing-Zhang culture belt | Ch.9, Ch.5 | Heritage park spine, Qinghuayuan station | Culture narrative + pilgrim line |
+| Positioning: urban AI life-experience belt | Ch.6, 5.3 | Dazhongsi consumption street | 12 scenario cards |
+| Positioning: AI integration innovation belt | Ch.2, Ch.3 | Whole belt | Five-element industry system |
+| Function: full-stack autonomous innovation | 5.1, Ch.3 | Zhongzhiyuan + tower | Device accounting + tiered access |
+| Function: world-class AI ecosystem | 5.2, 3.1 | AI Origin community | OPC + case table + corpus |
+| Function: AI+ scenario paradigm | Ch.6, Ch.8 | Scenario card matrix | 12 cards + 3 tests |
+| Function: intelligent vibrant city | Ch.8, Ch.9 | Time-shared ROW, night scenes | Time-folding system |
+| Function: AI governance global voice | Ch.3 governance | Tower standards layer | Evaluation platform + annual report + workshops |
+| Three areas: Origin/Zhongzhiyuan/Dazhongsi | 5.1/5.2/5.3 | Three key areas | Dual-perspective method |
+| Two wings: Zhongguancun services wing | 3.1 "services", JZ-05 | Zhongguancun direction | Compute vouchers + producer services |
+| Two wings: Xiaoyuehe scenario wing | Ch.9 | Xiaoyuehe waterfront | Blue-green scenario network |
+| Synergy: Beiwei Community | Ch.3 synergy | Northern community direction | Talent/housing/service linkage (conceptual) |
+| Synergy: Future Science/Huairou/EDA/JJJ | Ch.3 synergy | Cable/umbilical maps | Five-element exchange (three-level labels) |
+| agent.1 naming & concept | 0.2, Ch.2 | Whole belt | Collision test + Logo/VI direction |
+| agent.2 cases & ecosystem | 3.1, 3.2 | Three areas + wings | 6-case table + five elements |
+| agent.3 scenarios & personas | Ch.6 | Scenario matrix | 12 cards + 3 tests + 6 personas |
+| agent.4 public space & landmarks | Ch.5, Ch.9 | Tower/boxes/corpus | Pilgrim points + honor + components |
+| agent.5 cultural narrative | Ch.9, Ch.5 | Tower-park-street | Three-level imagery + wayfinding |
+| agent.6 events & operations | Ch.10 operations | Event-week route | Annual ladder + community + funnel |
+
 ![Three-level scope and spatial framework](assets/figures/land-use-structure.png)
 
 ## Coordinated Research Area: Industry and Future City Research
@@ -39,7 +93,33 @@ Spatial evidence is anchored by [data:geometry/site_boundary.geojson#SITE-001] a
 
 **Future city: the Brookings Superstars benchmark.** Brookings classifies 387 U.S. metro areas into six AI-economy types; the Superstars — San Francisco and San Jose/Silicon Valley — reach global top tier in talent, innovation, and adoption. San Francisco is the capital of frontier-model laboratories (OpenAI, Anthropic, Databricks, Sierra, Scale AI), while San Jose/Silicon Valley is the global compute-and-chip hub [source:DATA-SRC-BROOKINGS-AI-ECONOMY]. Beijing and the Jing-Zhang Belt resemble the former. Benchmark mapping: VC dominance (per public reporting, 2025 global AI funding approached half of global venture capital, with the Bay Area around half of U.S. AI investment — exact figures require primary-source verification) → compute vouchers and incubation policy; Stanford/UC Berkeley and the inflow of global engineers → Tsinghua/PKU/CAS campus-adjacent conversion; Scale AI (training-data labeling) → world corpus collection stations; Sierra (agentic customer service) → agent services in Dazhongsi; Databricks (data+AI platform) → data-element circulation. The Belt's uniqueness lies in the rare same-line dual role — "capital of model laboratories (Haidian) + compute hinterland (Zhangbei)"; the energy geography remains a background sentence only. Vision: become China's "capital of frontier-model laboratories," made perceptible through the computing tower, corpus stations, and OPC communities.
 
-**Regional synergy (with Beijing's other innovation poles)**: the synergy loops with Future Science City, Huairou Science City, Economic-Technological Development Area (EDA), and the Beijing-Tianjin-Hebei region are conceptual suggestions and matters for future cooperation, not settled arrangements — ①Talent: two-way flow between Haidian university talent, EDA manufacturing talent, and Huairou science talent (background link); ②Compute: green compute from the Zhangjiakou/Zhangbei hinterland to the Belt (background link, energy geography not expanded); ③Data and models: Belt corpus and open-source models open to Huairou/EDA scenarios (future cooperation); ④Technical validation: linkage between EDA autonomous-driving test grounds and the Belt's 500 m low-latency zone (future cooperation); ⑤Market: the Belt's application scenarios as a diffusion hinterland for the Jing-Jin-Ji urban cluster (conceptual suggestion). These exchanges enter the "cable/umbilical" relationship maps, labeled at three levels — background link / conceptual suggestion / future cooperation — without implying any agreement [depth:overall_spatial_structure].
+**Regional synergy (with Beijing's other innovation poles)**: the synergy loops with Future Science City, Huairou Science City, Economic-Technological Development Area (EDA), and the Beijing-Tianjin-Hebei region are conceptual suggestions and matters for future cooperation, not settled arrangements — ①Talent: two-way flow between Haidian university talent, EDA manufacturing talent, and Huairou science talent (background link); ②Compute: green compute from the Zhangjiakou/Zhangbei hinterland to the Belt (background link, energy geography not expanded); ③Data and models: Belt corpus and open-source models open to Huairou/EDA scenarios (future cooperation); ④Technical validation: linkage between EDA autonomous-driving test grounds and the Belt's 500 m low-latency zone (future cooperation); ⑤Market: the Belt's application scenarios as a diffusion hinterland for the Jing-Jin-Ji urban cluster (conceptual suggestion). ⑥Beiwei Community: as the Belt's northern residential and innovation-service hinterland, forming talent/housing/innovation-service linkage with the AI Origin community (background link, conceptual suggestion). These exchanges enter the "cable/umbilical" relationship maps, labeled at three levels — background link / conceptual suggestion / future cooperation — without implying any agreement [depth:overall_spatial_structure].
+
+**Global AI ecosystem case table (agent.2, 5-8 cases)**: each case states source grade, mechanism, spatial carrier, operation model, applicability, non-transferable items, and the translation action for Jing-Zhang — cases are directional public-report studies, not enterprise-list commitments [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]:
+
+| Case | Source grade | Core mechanism | Spatial carrier | Operation model | Applicability | Non-transferable | Translation to Jing-Zhang |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Shanghai Fuxing Island | Public report (background) | Culture + AI integrated community | Island community | Government-guided + market | Large renewal space | Island closed boundary | OPC mixed ring at Origin |
+| Shenzhen Shekou | Public report (background) | Special-zone policy + spatial experiment | District special zone | Policy pilot + enterprise | Policy-authorized space | Zone legislation power | 500 m low-latency zone (conceptual) |
+| Silicon Valley Stanford-Palo Alto | Public research (background) | Campus-adjacent conversion | University-adjacent blocks | University + capital | Top university density | Capital scale | Tsinghua/PKU/CAS conversion |
+| Tel Aviv / London King's Cross | Public research (background) | Station-city + innovation district | TOD surroundings | Public-private renewal | Rail hub | Land system | Dazhongsi four-quadrant connectivity |
+| Zhangbei compute hub | Public report (background) | Green-power + compute geography | Data-center cluster | Energy + IDC firms | Green power | Energy narrative already occupied | Background sentence only |
+| San Francisco (Brookings) | Public report (background) | Frontier-model lab capital | Urban lab clusters | VC-led | Global VC capital | Funding scale | Compute vouchers + incubation (conceptual) |
+
+**AI-governance global voice (conceptual deliverables)**: the official "standards and safety governance" is translated into four deliverable mechanisms — ①public benchmark and standards co-creation platform: spatial carrier = tower standards layer, suggested lead = park + industry organizations, output = public benchmark reports (no government commitment); ②annual AI governance report: published by the platform operator, disclosing complaint-review data; ③international workshops: governance sessions within the Global AI Week, lead = brand operator + international liaison; ④complaint-review data disclosure: quarterly public statistics by scenario operators. All are conceptual suggestions located at the tower standards layer and the event-week route, implying no approval, funding, or international agreement [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+**Global AI innovation ecosystem case table (agent.2, 5-8 cases)**: each case states source grade, mechanism, spatial carrier, operation model, applicability, non-transferable elements, and the Jing-Zhang translation — cases are directional research from public reporting, not company-list commitments [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK]:
+
+| Case | Source grade | Core mechanism | Spatial carrier | Operation | Applicability | Not transferable | Jing-Zhang translation |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Shanghai Fuxing Island | Public reporting (background) | Culture + AI systematic community implant | Island community | Government-guided + market operation | Contiguous renewal space | Insular closed boundary | AI Origin OPC mixed ring |
+| Shenzhen Shekou | Public reporting (background) | Special-zone policy + spatial experiments | District-level zone | Policy pilot + enterprise operation | Policy-authorized space | Special-zone legislative power | 500 m low-latency zone (conceptual) |
+| Silicon Valley Stanford-Palo Alto | Public research (background) | Campus-adjacent conversion ecosystem | University-adjacent districts | University + capital network | Top-tier university density | Capital scale | Tsinghua/PKU/CAS conversion |
+| Tel Aviv / London King's Cross | Public research (background) | Transit-oriented innovation districts | TOD surroundings | Public-private renewal | Rail hub | Land-system differences | Dazhongsi four-quadrant connectivity |
+| Zhangbei compute hub | Public reporting (background) | Green-power + compute energy geography | Data-center clusters | Energy + IDC operators | Green-power resources | Energy-geography narrative already used | Background sentence only |
+| San Francisco (Brookings) | Public report (background) | Capital of frontier-model laboratories | Urban lab clusters | VC-led | Global VC capital | Funding scale not replicable | Compute vouchers + incubation (conceptual) |
+
+**AI governance global voice (conceptual deliverable mechanisms)**: the official "standards-setting and safety governance" is translated into four deliverables — ①public evaluation and standards co-creation platform: spatial carrier at the tower standards layer, suggested lead = park + industry organizations, output = public evaluation reports (not a government commitment); ②annual AI governance report: published by the platform operator, disclosing complaint-review data and scenario governance; ③international workshops: governance sessions within the Global AI Week, suggested lead = brand operator + international liaison; ④complaint-review data disclosure: quarterly public review statistics by scenario operators. All are conceptual suggestions; they imply no approvals, funding, or international agreements [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
 
 ## Overall Design Area: Urban Renewal and Regulatory-Plan-Level Urban Design
 
@@ -92,7 +172,7 @@ The three key areas follow the **dual carbon/silicon perspective** principle: a 
 | Token-subsidized café | Public spaces | All | Licensed operator + community | Aggregated dwell time, no personal traces | Patrol + complaints channel | Exit anytime, no account binding |
 | Community compute card | Origin community | Residents/OPC devs | Community service center | Usage counts only, no content | Service desk review | Card cancellable |
 | Interaction booth | Communities/streets | All | Licensed operator | Dialog not shared; display requires consent | Review option after each session | Immediate termination |
-| World corpus station | Campus edge/parks | Students/diverse | University + licensed operator | Voluntary, revocable, minimal | Authorization check + sampling | Revocation deletes data |
+| World corpus station | Campus edge/parks | Students/diverse | University + licensed operator | Voluntary, revocable, minimal | Authorization check + sampling | Revocation deletes data (proposed governance rule of this plan, designed on data-minimization principles) |
 | Agent baby | Dazhongsi street | Visitors/youth | Commercial operator | Cloud memory, guardian-controlled | Content moderation | Full memory deletion |
 | 20 m start-up field | Origin community | Start-ups | Incubator operator | Aggregated collaboration stats | Manual onboarding | Exit available |
 | Tower low-latency experience | 500 m zone | AI practitioners | Platform operator | Quota counting | Safety patrols | Quota-based exit |
@@ -136,6 +216,8 @@ The three key areas follow the **dual carbon/silicon perspective** principle: a 
 
 **Nighttime scenes (time-folding visualization)**: the night "that daytime carbon humans do not understand" becomes a visible urban stage — lighting, projection, and data-flow public art, tower compute-flow visualization, an all-night content-consumption district; the tower cooling-water and Qinghe landscape concept remain imagery only, without engineering conclusions. Youth-friendly: a Datang-Bu-Ye-Cheng-style nighttime vitality belt plus third spaces; conservative design around the Qinghuayuan station heritage area, never breaching heritage, green, or blue lines [data:geometry/constraints.geojson#CON-001].
 
+**Honor display system (agent.4)**: ①developer honor wall — a contributor plaque system with Jing-Zhang railway spike/sleeper imagery, at the AI Origin community and tower exhibition; ②corpus-contributor plaques — voluntary registration, authorized information only; ③event-week honors — annual awards with public review. **Public-space component library (agent.4)**: modular component specs for interaction boxes, corpus stations, and screen points (dimensions/material/energy interface/accessibility), registered under the "carbon-silicon shared land" device accounting for professional deepening. **Cultural wayfinding system (agent.5)**: a wayfinding language direction using Jing-Zhang rail track texture + Zhongguancun code symbols, clearly distinguished from the belt Logo/VI (Ch. 2) [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
 ![Nighttime scene: all-night content consumption (conceptual rendering, not a photograph)](assets/media/fig-ch9-night-01.png)
 
 ![Nighttime scene: compute flow and public art (conceptual rendering, not a photograph)](assets/media/fig-ch9-night-02.png)
@@ -166,6 +248,26 @@ Policy suggestions cover compute vouchers (issuing the equivalent), test permits
 | JZ-05 Compute vouchers | Regulator + operator | Supervision, platform | Policy pilot approval | ~1,000 users | Universal coverage | Shrink if equity risk |
 | JZ-06 Global AI week | Brand operator | Venues, communities | Permits, rights clearance | Single public event | Participation & diffusion | Cancel on safety/compliance |
 
+**Annual operation system (agent.6, conceptual)**: ①annual event gradient — quarterly "scenario open days" ×4, semi-annual "governance workshops" ×2, annual "Global AI Week" (June) ×1, developer conference (November) ×1; ②event brand/IP — carried by the Silicon-Carbon City naming system (0.2), same source as event visuals, no separate brand; ③developer community — OPC shared workstation clusters + monthly technical salons + open-source contribution wall (part of the honor system); ④scenario open process — whitelist reservation + test permits, per the scenario review matrix; ⑤landmark daily operation — tower/boxes/corpus per the operation matrix; ⑥international communication and conversion funnel — content → event participation → scenario pilot → enterprise-location consultation, with conversion nodes and quarterly review cycles; suggested leads are brand operators/park/community; resource magnitudes and pause/exit rules follow each project's responsibility matrix; nothing constitutes a government activity commitment [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+**Conceptual pilot decision gates** (computing tower / 500 m low-latency zone / nighttime self-operation; gate items only, no fabricated energy, municipal capacity, or approval conclusions):
+
+| System | Minimum pilot | Currently definable targets | External validation needed | Professional review trigger | Veto condition |
+| --- | --- | --- | --- | --- | --- |
+| Computing tower | Base device + viewing deck | Compute-flow art usable; daily visits | Energy, structure, fire, municipal capacity | Entry into site selection or design | Energy/site/safety failure |
+| 500 m low-latency zone | Single-node latency experience | End-to-end latency below park baseline (to be measured) | Network latency, cooling | Before recruiting real users | Latency or safety failure |
+| Nighttime self-operation | One delivery corridor + one building | Night task completion (to be defined) | Noise, safety, liability | Before night operation normalizes | Complaints or safety failure |
+
+**Annual operations system (agent.6, conceptual)**: ①event ladder — monthly developer nights, quarterly scenario open days, annual Global AI Week (incl. international governance workshops), with suggested leads/resource magnitude/review cadence/pause-exit rules in an event ledger; ②event brand & IP — event-week visual follows the 0.2 naming system and Logo/VI direction; "Agent Baby" is an emotional character IP (outside formal VI); ③developer community — OPC private domains + open-source contribution wall + compute-voucher incentives, quarterly review; ④scenario opening — 1-2 scenario pilots per quarter, whitelist admission + human review + pilot-term expiry; ⑤landmark daily operations — tower guided tours, box rentals, corpus collection windows, quarterly public ledger; ⑥international diffusion & lead-conversion funnel — event→community→pilot→deepening four-stage conversion with metrics and review cadence. All are conceptual suggestions; no government commitments, funding arrangements, or settled events are implied [source:AGENT-TASKBOOK] [standard:PROJECT-AGENT-OPEN-CALL-TASKBOOK].
+
+**Conceptual pilot decision gates (tower / 500 m zone / nighttime self-operation)**: concept-stage gates for three device-type scenarios — minimum pilot, currently definable performance targets, items pending external verification, professional-review triggers, and veto conditions; no energy, municipal-capacity, or approval conclusions are fabricated [depth:phasing_implementation]:
+
+| Scenario | Minimum pilot | Performance target (conceptual) | External verification pending | Professional review trigger | Veto condition |
+| --- | --- | --- | --- | --- | --- |
+| Computing tower | Base device + viewing deck | Compute-flow visualization in service | Energy load, structural/fire, cooling, municipal capacity | Site selection / scheme design stage | Energy or safety failure |
+| 500 m low-latency zone | Single low-latency experience point | End-to-end latency to professional grade (value pending) | Measured network latency, equipment cooling | Engineering project stage | Latency or safety failure |
+| Nighttime self-operation | Single delivery corridor + one community | 3-month incident-free operation | Noise baseline, safety liability definition | Before recruiting real users | Safety or disturbance failure |
+
 ## Metrics, Area Recalculation, and Compliance Matrix
 
 **Three core metrics** are recomputed from submitted geometry under EPSG:4548: site_area_sqm (≈11.41 km²), green_ratio (≈0.128), public_space_ratio (≈0.007) — all known finite values, declared consistently via data-value in visual/index.html [metric:site_area_sqm] [metric:green_ratio] [metric:public_space_ratio] [depth:metrics_recalculation]. Building footprint area is ≈791,000 m² (density ≈6.9%, conceptual under the device accounting; the recomputed values 791,038.7 m² / 0.0693 in metrics.json are authoritative). FAR and building height remain unknown with stated reasons, as they depend on unpublished official controls [depth:development_intensity_controls].
@@ -178,7 +280,7 @@ Policy suggestions cover compute vouchers (issuing the equivalent), test permits
 
 **Bilingual requirement**: this package provides the complete counterpart `proposal.en.md`; A3/A0 drawings, HTML, and text-bearing figures all provide language counterparts; all images, drawings, icons, data, and code assets state source, license, and authorization in `sources.json` and `report/copyright_statement.md`; HTML pages load no remote scripts, tiles, fonts, iframes, forms, or external APIs [depth:risk_missing_data].
 
-**Risk matrix highlights**: ①Naming risk — "Silicon-Carbon City" tested 0 collisions (2026-08-29, 1,100 titles); the word-family neighbor "Luoduo Agent City" requires an explicit differentiation statement in the PR description; standby names are kept in sources.json [source:DATA-SRC-NAME-COLLISION-20260829]; ②Concept risk — the "shared land/device accounting" is unrecognized by the current approval system; the proposal explicitly delegates translation/measurement to physical-space competition teams; ③Operations risk — nighttime self-operation safety governance (unmanned inspection/delivery liability) and nighttime disturbance; ④Equity — tiered compute may create a new digital divide, mitigated by the universal L1 tier; ⑤Privacy ethics — corpus collection is voluntary and revocable; BCI/AR remain long-term scenarios pending legislation; ⑥Data gaps — official boundary, regulatory controls, road redlines, ownership, utilities, heritage, and public-service conditions enter the assumptions list, and related conclusions are downgraded to pending items. The proposal claims no official approval, approved regulatory plans, final land ownership, or guaranteed implementation; all spatial suggestions are phrased as "conceptual suggestions," "reference schemes," or "material for professional teams to deepen" [source:SOURCE-REGISTRY].
+**Risk matrix highlights**: ①Naming risk — the "Silicon-Carbon City" collision test is a snapshot of 1,100 submitted titles on 2026-08-29 (0 hits), which does not constitute trademark, copyright, multilingual-name, or city-brand availability review; the word-family neighbor "Luoduo Agent City" requires an explicit differentiation statement in the PR description; standby names are kept in sources.json [source:DATA-SRC-NAME-COLLISION-20260829]; ②Concept risk — the "shared land/device accounting" is unrecognized by the current approval system; the proposal explicitly delegates translation/measurement to physical-space competition teams; ③Operations risk — nighttime self-operation safety governance (unmanned inspection/delivery liability) and nighttime disturbance; ④Equity — tiered compute may create a new digital divide, mitigated by the universal L1 tier; ⑤Privacy ethics — corpus collection is voluntary and revocable; BCI/AR remain long-term scenarios pending legislation; ⑥Data gaps — official boundary, regulatory controls, road redlines, ownership, utilities, heritage, and public-service conditions enter the assumptions list, and related conclusions are downgraded to pending items. The proposal claims no official approval, approved regulatory plans, final land ownership, or guaranteed implementation; all spatial suggestions are phrased as "conceptual suggestions," "reference schemes," or "material for professional teams to deepen" [source:SOURCE-REGISTRY].
 
 ## References
 

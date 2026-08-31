@@ -39,9 +39,9 @@
   },
   {
    "id": "A-NAME-RESERVE-001",
-   "status": "cleared",
-   "statement": "'Silicon-Carbon City' tested 0 collisions across 1,100 submitted titles on 2026-08-29; standby names (Shared Pen, One Belt Two Minds, Between Silicon and Carbon) remain available.",
-   "impact": "Re-run the collision test before final submission; differentiate from word-family neighbor 'Luoduo Agent City' in the PR description."
+   "status": "provisional_snapshot",
+   "statement": "'Silicon-Carbon City' tested 0 collisions against a snapshot of 1,100 submitted titles on 2026-08-29. This is a title-search snapshot only and does not constitute trademark, copyright, multilingual-name, or city-brand availability review; a fresh search and rights verification are required before formal adoption.",
+   "impact": "The name result is treated as a time-point snapshot; re-run the search and complete rights checks before any formal brand adoption; differentiate from word-family neighbor 'Luoduo Agent City' in the PR description."
   },
   {
    "id": "A-BROOKINGS-DATA-001",
