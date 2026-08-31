@@ -67,14 +67,13 @@
         "submissions/FAIR2026/jingzhang-silicon-carbon-city/self_check.json",
         "submissions/FAIR2026/jingzhang-silicon-carbon-city/sources.json",
         "submissions/FAIR2026/jingzhang-silicon-carbon-city/standard_matrix.json",
-        "submissions/FAIR2026/jingzhang-silicon-carbon-city/visual/assets/fonts/fonts.css",
         "submissions/FAIR2026/jingzhang-silicon-carbon-city/visual/index.en.html",
         "submissions/FAIR2026/jingzhang-silicon-carbon-city/visual/index.html"
       ],
       "ai_package_stages": {
         "submissions/FAIR2026/jingzhang-silicon-carbon-city": "formal"
       },
-      "total_bytes": 35003775,
+      "total_bytes": 34126077,
       "maintainer_bypass": false
     },
     "stderr": ""

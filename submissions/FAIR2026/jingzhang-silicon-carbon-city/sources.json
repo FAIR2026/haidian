@@ -74,23 +74,33 @@
   },
   {
    "id": "DATA-SRC-BROOKINGS-AI-ECONOMY",
-   "source_type": "public_research",
+   "source_type": "public_research_background",
    "publisher": "Brookings Institution",
    "retrieved": "2026-08-28",
    "title": "Mapping the AI Economy: Which Regions Are Ready for the Next Technological Leap?",
-   "url": "https://www.brookings.edu/",
+   "url": "https://www.brookings.edu/articles/mapping-the-ai-economy-which-regions-are-ready-for-the-next-technological-leap/",
    "usage": "Six-type classification of 387 US metro areas; Superstars benchmark for future-city vision.",
    "license": "public report",
-   "limitations": "US data only; Chinese application is an analogy, not a direct measure."
+   "limitations": "US data only; Chinese application is an analogy, not a direct measure.",
+   "publication_date": "2025-09 (as cited in public coverage; exact date pending primary check)",
+   "coverage": "US 387 metro areas, 2024-2025 data",
+   "reuse_terms": "Public report; quotation with attribution permitted",
+   "claim_mapping": "Six-type classification of US metro areas; San Francisco as frontier-model-lab capital; VC dominance direction"
   },
   {
    "id": "DATA-SRC-AIGC-EDUCATION-CHAINS",
-   "source_type": "public_market",
-   "publisher": "TAL Education / Zuoyebang / NetEase Youdao / ByteDance Education public disclosures",
+   "source_type": "public_disclosure_background",
+   "publisher": "Individual listed companies (public disclosures)",
    "retrieved": "2026-08-28",
    "usage": "Evidence for AI+Education track: global-largest online-education cluster chain leaders.",
    "license": "public disclosures",
-   "limitations": "Market positions are directional; figures must be re-verified from latest disclosures."
+   "limitations": "Market positions are directional; figures must be re-verified from latest disclosures.",
+   "title": "Public market disclosures and coverage of TAL Education, Zuoyebang, NetEase Youdao, ByteDance Education (chain-leader identification)",
+   "url": "Company annual reports / investor relations pages (TAL Education Group, Zuoyebang, Youdao Inc., ByteDance); URLs pending per-company primary verification",
+   "publication_date": "2024-2026 disclosures, retrieved 2026-08-28",
+   "coverage": "China online-education market, directional",
+   "reuse_terms": "Public disclosures; factual statements only, no trademarks reused",
+   "claim_mapping": "Identification of AI+Education chain leaders; cluster scale treated as directional (downgraded wording in proposal)"
   },
   {
    "id": "DATA-SRC-NAME-COLLISION-20260829",
@@ -103,12 +113,18 @@
   },
   {
    "id": "DATA-SRC-WEWORK-20M",
-   "source_type": "public_material",
-   "publisher": "WeWork (public interview and reporting)",
+   "source_type": "public_reporting_background",
+   "publisher": "WeWork executives via public media coverage",
    "retrieved": "2026-08-28",
    "usage": "20m interaction-distance hypothesis for start-up density design.",
    "license": "public reporting",
-   "limitations": "Anecdotal/qualitative; pending academic or field validation."
+   "limitations": "Anecdotal/qualitative; pending academic or field validation.",
+   "title": "WeWork interaction-distance commentary (20m hypothesis for start-up density)",
+   "url": "Public interviews and media coverage of WeWork; exact article URL pending verification",
+   "publication_date": "2016-2019 era coverage, retrieved 2026-08-28",
+   "coverage": "WeWork workplace observations, qualitative",
+   "reuse_terms": "Public reporting; treated as hypothesis, not measured law",
+   "claim_mapping": "20m interaction-distance as a design hypothesis only, explicitly labeled pending validation in proposal"
   },
   {
    "id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
