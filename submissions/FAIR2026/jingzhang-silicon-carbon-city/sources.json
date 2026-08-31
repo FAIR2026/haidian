@@ -94,7 +94,7 @@
    "retrieved": "2026-08-28",
    "usage": "Evidence for AI+Education track: global-largest online-education cluster chain leaders.",
    "license": "public disclosures",
-   "limitations": "Market positions are directional; figures must be re-verified from latest disclosures.",
+   "limitations": "Company-specific primary links and article URLs pending per-company verification; treated as directional background only. 'Chain leaders' wording downgraded to 'representative enterprises' in the proposal; exact scale and ranking subject to official statistics.",
    "title": "Public market disclosures and coverage of TAL Education, Zuoyebang, NetEase Youdao, ByteDance Education (chain-leader identification)",
    "url": "Company annual reports / investor relations pages (TAL Education Group, Zuoyebang, Youdao Inc., ByteDance); URLs pending per-company primary verification",
    "publication_date": "2024-2026 disclosures, retrieved 2026-08-28",
@@ -109,7 +109,8 @@
    "retrieved": "2026-08-29",
    "usage": "Collision test for 'Silicon-Carbon City' name and English variants; word-family neighbor identification.",
    "license": "public catalog",
-   "limitations": "Snapshot of 1,100 titles at retrieval time; re-run before final submission."
+   "limitations": "Time-point snapshot of the public catalog; catalog version and future titles change daily. This is an exploratory internal retrieval and is NOT evidence of trademark, copyright, multilingual-name, or city-brand availability; a fresh search plus rights verification is required before formal adoption. Result summary is disclosed in proposal.md and this file.",
+   "method": "Exploratory internal retrieval: all proposal titles were fetched from the public open-city-ai/haidian submissions catalog (GitHub API, pulls+issues titles, state=all, per_page=100, pages 1-11; 1,100 titles total on 2026-08-29). Search terms: 硅碳/碳硅/硅之城/之城/SILICON-CARBON/carbon-silicon (case-insensitive substring). Exact-match hits: 0 for the main name and English variants; 1 word-family hit ('落朵智能体之城'). Normalization: no diacritics or hyphenation normalization was applied beyond case folding."
   },
   {
    "id": "DATA-SRC-WEWORK-20M",
@@ -118,7 +119,7 @@
    "retrieved": "2026-08-28",
    "usage": "20m interaction-distance hypothesis for start-up density design.",
    "license": "public reporting",
-   "limitations": "Anecdotal/qualitative; pending academic or field validation.",
+   "limitations": "Exact source article pending verification; treated strictly as a design hypothesis ('20m interaction-distance hypothesis'), explicitly labeled pending validation, never presented as a measured law or formal statistic.",
    "title": "WeWork interaction-distance commentary (20m hypothesis for start-up density)",
    "url": "Public interviews and media coverage of WeWork; exact article URL pending verification",
    "publication_date": "2016-2019 era coverage, retrieved 2026-08-28",
